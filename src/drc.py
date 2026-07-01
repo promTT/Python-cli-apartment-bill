@@ -168,7 +168,7 @@ def format_summary_line(result):
 
 def regenerate_final_bill():
     try:
-        from processes import get_calculated_bill_data
+        from src.processes import get_calculated_bill_data
     except Exception:
         return False
 

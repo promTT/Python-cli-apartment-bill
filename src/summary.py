@@ -1,4 +1,4 @@
-from processes import flatten_meters, get_room_rate, load_json_file
+from src.processes import flatten_meters, get_room_rate, load_json_file
 
 
 def money(value):

@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
 
-from processes import calculate_usage, flatten_meters, load_json_file
+from src.processes import calculate_usage, flatten_meters, load_json_file
 
 
 BASE_DIR = Path(__file__).resolve().parent

@@ -9,7 +9,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 # Import the logic from your other file
-from processes import get_calculated_bill_data
+from src.processes import get_calculated_bill_data
 
 def setup_thai_font():
     font_path = "Sarabun-Regular.ttf" 
@@ -91,7 +91,7 @@ def create_apartment_bill_pdf(bill_data, output_filename="apartment_bill.pdf"):
 
 def convert_pdf_menu():
     try:
-        from pdf_to_jpeg import convert_pdf_to_jpeg
+        from src.pdf_to_jpeg import convert_pdf_to_jpeg
     except ModuleNotFoundError as error:
         if error.name == "fitz":
             print("Missing dependency: PyMuPDF (fitz).")
@@ -133,7 +133,7 @@ def convert_pdf_menu():
 
 def run_drc_menu():
     try:
-        from drc import main as drc_main
+        from src.drc import main as drc_main
     except Exception as error:
         print(f"Failed to start DRC: {error}")
         return
