@@ -1,12 +1,18 @@
 import json
+from pathlib import Path
 
 MAX_METER_VALUE = 9999
 METER_CYCLE = 10000
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+path_basic = BASE_DIR / "json" / "basic_info.json"
+path_previous = BASE_DIR / "json" / "previous_meter.json"
+path_current = BASE_DIR / "json" / "current_meter.json"
+
 def load_json_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as file:
         return json.load(file)
-
+    
 def flatten_meters(meter_list):
     flat_dict = {}
     for item in meter_list:
@@ -43,9 +49,9 @@ def calculate_usage(previous_value, current_value):
 def get_calculated_bill_data():
     """Calculates and returns the bill data as a dictionary."""
     try:
-        info = load_json_file('basic_info.json')
-        prev_meter = load_json_file('previous_meter.json')
-        curr_meter = load_json_file('current_meter.json')
+        info = load_json_file(path_basic)
+        prev_meter = load_json_file(path_previous)
+        curr_meter = load_json_file(path_current)
     except FileNotFoundError as e:
         print(f"Error: Could not find the file. {e}")
         return None
