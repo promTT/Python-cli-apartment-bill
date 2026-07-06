@@ -79,10 +79,10 @@ def run_rollover_and_import_menu():
 def run_menu():
     while True:
         print("\nSelect an option:")
-        print("1. Create apartment bill PDF")
-        print("2. Convert PDF to JPEG")
-        print("3. Run DRC (Check Meters)")
-        print("4. Start New Billing Cycle & Import CSV")
+        print("1. Start New Billing Cycle & Import CSV")
+        print("2. Run DRC (Check Meters)")
+        print("3. Create apartment bill PDF")
+        print("4. Convert PDF to JPEG")
         print("5. Exit")
 
         try:
@@ -92,8 +92,14 @@ def run_menu():
             break
 
         if choice == "1":
+            run_rollover_and_import_menu()
+            
+        elif choice == "2":
+            run_drc_menu()
+            
+        elif choice == "3":
             try:
-                # Moved import here so it only loads when needed
+                # Lazy imports to only load when generating the PDF
                 from src.processes import get_calculated_bill_data
                 from src.create_bill import create_apartment_bill_pdf
                 
@@ -105,15 +111,13 @@ def run_menu():
             except Exception as e:
                 print(f"Failed to create PDF: {e}")
                 
-        elif choice == "2":
-            convert_pdf_menu()
-        elif choice == "3":
-            run_drc_menu()
         elif choice == "4":
-            run_rollover_and_import_menu()
+            convert_pdf_menu()
+            
         elif choice == "5":
             print("Bye.")
             break
+            
         else:
             print("Invalid choice. Please enter a number between 1 and 5.")
 
