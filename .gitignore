@@ -1,4 +1,5 @@
 apartment_bill_jpeg/*
+*.env
 *.pdf
 *.jpg
 __pycache__/*
