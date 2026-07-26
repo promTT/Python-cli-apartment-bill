@@ -19,3 +19,4 @@ Run `python3.13 -m src.main` to access the interactive CLI menu. The menu is int
 }
 
 ```
+`ssh -R 80:127.0.0.1:5050 serveo.net`

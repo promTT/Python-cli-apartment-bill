@@ -78,48 +78,55 @@ def run_rollover_and_import_menu():
 def run_menu():
     while True:
         print("\n--- Apartment Billing System ---")
-        print("1. Start New Billing Cycle & Import CSV")
-        print("2. Run DRC (Check Meters)")
-        print("3. Create apartment bill PDF")
-        print("4. Convert PDF to JPEG")
-        print("5. Upload JPEGs to Cloud (ImgBB)")
-        print("6. Send Bills via LINE OA")
-        print("7. Exit")
+        print("1. Start New Billing Cycle (Archive & Rollover)")
+        print("2. Import CSV to JSON")
+        print("3. Run DRC (Check Meters)")
+        print("4. Create apartment bill PDF")
+        print("5. Convert PDF to JPEG")
+        print("6. Upload JPEGs to Cloud (ImgBB)")
+        print("7. Send Bills via LINE OA")
+        print("8. Exit")
         
-        choice = input("Enter choice (1-7): ")
+        choice = input("Enter choice (1-8): ")
 
         if choice == "1":
-            print("\n--- Starting New Cycle & Importing CSV ---")
+            print("\n--- Starting New Cycle ---")
             from src.new_cycle import start_new_cycle
-            from src.csv_to_json import import_csv
             
             start_new_cycle()
-            import_csv()
-            print("✅ Cycle rolled over and new CSV imported safely.")
+            print("✅ Cycle rolled over and old data archived safely.")
 
         elif choice == "2":
-            print("\n--- Running DRC ---")
-            from src.drc import run_drc
+            print("\n--- Importing CSV ---")
+            from src.csv_to_json import run_csv_to_json_menu
             
-            run_drc()
+            run_csv_to_json_menu()
+            print("✅ New CSV imported safely.")
 
         elif choice == "3":
-            print("\n--- Creating PDF Bills ---")
-            from src.processes import get_calculated_bill_data
-            from src.create_bill import generate_pdf
+            print("\n--- Running DRC ---")
+            from src.drc import main
             
-            data = get_calculated_bill_data()
-            generate_pdf(data)
-            print("✅ PDFs generated successfully.")
+            main()
 
         elif choice == "4":
-            print("\n--- Converting PDF to JPEG ---")
-            from src.pdf_to_jpeg import convert_to_jpeg
+            print("\n--- Creating PDF Bills ---")
+            from src.processes import get_calculated_bill_data
+            from src.create_bill import create_apartment_bill_pdf
             
-            convert_to_jpeg()
-            print("✅ PDFs converted to JPEGs.")
+            data = get_calculated_bill_data()
+            create_apartment_bill_pdf(data)
+            print("✅ PDFs generated successfully.")
 
         elif choice == "5":
+            print("\n--- Converting PDF to JPEG ---")
+            from src.pdf_to_jpeg import convert_pdf_to_jpeg
+            
+            # Pass the name of your generated PDF file directly into the function
+            convert_pdf_to_jpeg("apartment_bill.pdf")
+            print("✅ PDFs converted to JPEGs.")
+
+        elif choice == "6":
             print("\n--- ☁️ Uploading JPEGs to ImgBB (Parallel) ---")
             
             # Lazy imports
@@ -132,7 +139,7 @@ def run_menu():
             url_storage_file = Path("json/uploaded_urls.json")
             
             if not jpeg_folder.exists() or not any(jpeg_folder.iterdir()):
-                print(f"❌ No JPEGs found in {jpeg_folder}. Did you run step 4?")
+                print(f"❌ No JPEGs found in {jpeg_folder}. Did you run step 5?")
                 continue
             
             # 1. Gather and SORT the files so they process in order
@@ -144,17 +151,13 @@ def run_menu():
             # 2. Define a helper function for the thread pool to execute
             def process_upload(image_path):
                 room_number = image_path.stem 
-                # upload_imgbb is imported from src.upload_imgbb [cite: 205]
                 public_url = upload_bill_to_imgbb(str(image_path))
                 return room_number, public_url
 
             # 3. Use ThreadPoolExecutor to upload in parallel
-            # max_workers=10 means it will process up to 10 images simultaneously
             with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-                # Submit all tasks to the pool
                 futures = {executor.submit(process_upload, path): path for path in image_files}
                 
-                # Gather the results as they finish
                 for future in concurrent.futures.as_completed(futures):
                     try:
                         room_number, public_url = future.result()
@@ -166,13 +169,13 @@ def run_menu():
             # 4. Sort the final dictionary keys just to keep the saved JSON tidy
             uploaded_data = dict(sorted(uploaded_data.items()))
 
-            # 5. Save the URLs to a JSON file for Step 6 to use [cite: 118, 119]
+            # 5. Save the URLs to a JSON file for Step 7 to use
             with open(url_storage_file, "w", encoding="utf-8") as f:
                 json.dump(uploaded_data, f, indent=4)
                 
             print(f"\n✅ All uploads complete! URLs saved to {url_storage_file}")
 
-        elif choice == "6":
+        elif choice == "7":
             print("\n--- 📱 Sending Bills to Admin via LINE ---")
             import os
             import json
@@ -189,10 +192,10 @@ def run_menu():
                 continue
                 
             if not url_storage_file.exists():
-                print(f"❌ Error: {url_storage_file} not found. Please run Step 5 first.")
+                print(f"❌ Error: {url_storage_file} not found. Please run Step 6 first.")
                 continue
                 
-            # Load the URLs generated in Step 5
+            # Load the URLs generated in Step 6
             with open(url_storage_file, "r", encoding="utf-8") as f:
                 uploaded_data = json.load(f)
                 
@@ -211,7 +214,7 @@ def run_menu():
             
             print("\n✅ All bills successfully sent to the Admin!")
 
-        elif choice == "7":
+        elif choice == "8":
             print("Exiting system. Have a great day!")
             break
             
