@@ -1,4 +1,5 @@
-from src.processes import flatten_meters, get_room_rate, load_json_file
+import src.database as db
+from src.processes import flatten_meters, get_room_rate
 
 
 def money(value):
@@ -6,9 +7,9 @@ def money(value):
 
 
 def build_summary():
-	info = load_json_file("basic_info.json")
-	prev_meter = load_json_file("previous_meter.json")
-	curr_meter = load_json_file("current_meter.json")
+	info = db.get_basic_info()
+	prev_meter = db.get_previous_meter()
+	curr_meter = db.get_current_meter()
 
 	prev_water = flatten_meters(prev_meter.get("water", []))
 	prev_elec = flatten_meters(prev_meter.get("electric", []))

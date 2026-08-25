@@ -1,18 +1,9 @@
-import json
-from pathlib import Path
+import src.database as db
+from src.database import DataNotFoundError
 
 MAX_METER_VALUE = 9999
 METER_CYCLE = 10000
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-path_basic = BASE_DIR / "json" / "basic_info.json"
-path_previous = BASE_DIR / "json" / "previous_meter.json"
-path_current = BASE_DIR / "json" / "current_meter.json"
-
-def load_json_file(filepath):
-    with open(filepath, 'r', encoding='utf-8') as file:
-        return json.load(file)
-    
 def flatten_meters(meter_list):
     flat_dict = {}
     for item in meter_list:
@@ -46,14 +37,32 @@ def calculate_usage(previous_value, current_value):
         return current_value - previous_value
     return (METER_CYCLE - previous_value) + current_value
 
+def meters_to_friendly(meter_data):
+    """Convert internal {water: [{room: val}...], electric: [...]} to {room: {water, electric}}."""
+    flat = {key: flatten_meters(meter_data.get(key, [])) for key in ("water", "electric")}
+    rooms = set(flat["water"]) | set(flat["electric"])
+    return {
+        room: {"water": flat["water"].get(room, 0), "electric": flat["electric"].get(room, 0)}
+        for room in sorted(rooms)
+    }
+
+def friendly_to_meters(rooms):
+    """Convert {room: {water, electric}} to the internal meter format, in dict order."""
+    water = []
+    electric = []
+    for room, vals in rooms.items():
+        water.append({room: int(vals.get("water", 0))})
+        electric.append({room: int(vals.get("electric", 0))})
+    return {"water": water, "electric": electric}
+
 def get_calculated_bill_data():
     """Calculates and returns the bill data as a dictionary."""
     try:
-        info = load_json_file(path_basic)
-        prev_meter = load_json_file(path_previous)
-        curr_meter = load_json_file(path_current)
-    except FileNotFoundError as e:
-        print(f"Error: Could not find the file. {e}")
+        info = db.get_basic_info()
+        prev_meter = db.get_previous_meter()
+        curr_meter = db.get_current_meter()
+    except DataNotFoundError as e:
+        print(f"Error: Could not find the data in MongoDB. {e}")
         return None
 
     prev_water = flatten_meters(prev_meter.get("water", []))
@@ -108,34 +117,34 @@ def get_calculated_bill_data():
             "electric_rate",
             default_electric_rate
         )
-        
+
         water_usage = calculate_usage(p_water, c_water)
         elec_usage = calculate_usage(p_elec, c_elec)
-        
+
         water_amount = water_usage * room_water_rate
         elec_amount = elec_usage * room_electric_rate
-        
+
         invoice_id = f"INV{inv_month_prefix}{room_index:06d}"
-        
+
         charges = [
             {"description": f"ค่าเช่าห้อง (Room rate) {unit_number} เดือน {month}", "amount": config.get("room_price", 0.0)},
             {"description": f"ค่าน้ำ เดือน {month} ({c_water}-{p_water}={water_usage})", "amount": water_amount},
             {"description": f"ค่าไฟฟ้า เดือน {month} ({c_elec}-{p_elec}={elec_usage})", "amount": elec_amount},
             {"description": "ค่าส่วนกลาง (maintenance fee)", "amount": config.get("maintenance_fee", 0.0)}
         ]
-        
+
         if "internet_rate" in config:
             charges.append({"description": "ค่าอินเตอร์เน็ต (Internet rate)", "amount": config["internet_rate"]})
         if "car_park_rate" in config:
             charges.append({"description": "ค่าที่จอดรถ (Car park rate)", "amount": config["car_park_rate"]})
         if "back_side_rate" in config:
             charges.append({"description": "ด้านหลัง", "amount": config["back_side_rate"]})
-        
+
         final_bill["rooms"].append({
             "unit_number": unit_number,
             "invoice_id": invoice_id,
             "bill_date": bill_date,
-            "staff_name": info.get("staff_name", "-----"), 
+            "staff_name": info.get("staff_name", "-----"),
             "charges": charges
         })
         room_index += 1
@@ -143,9 +152,8 @@ def get_calculated_bill_data():
     return final_bill
 
 if __name__ == "__main__":
-    # If run directly, still save the JSON as a test
+    # If run directly, still store the computed bills in MongoDB as a test
     data = get_calculated_bill_data()
     if data:
-        with open("final_apartment_bills.json", 'w', encoding='utf-8') as outfile:
-            json.dump(data, outfile, ensure_ascii=False, indent=4)
-        print("Success! JSON created.")
+        db.save_final_bills(data)
+        print("Success! Bills stored in MongoDB.")

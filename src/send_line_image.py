@@ -1,8 +1,11 @@
 
 # src/send_line_image.py
 import os
+
 import requests
 from dotenv import load_dotenv
+
+import src.database as db
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -54,3 +57,29 @@ def send_bill_image(user_id, original_url, preview_url=None):
         if response is not None:
             print(f"API Response: {response.text}")
         return False
+
+
+def send_bills(uploaded_urls):
+    """Send each uploaded bill image to its room's tenant LINE ID.
+
+    Rooms without a registered tenant LINE ID fall back to ADMIN_LINE_USER_ID.
+    Returns {sent, total, results: {room: {to, sent}}}.
+    """
+    admin_user_id = os.getenv('ADMIN_LINE_USER_ID')
+    results = {}
+    sent_count = 0
+
+    for room_number, public_url in (uploaded_urls or {}).items():
+        target = db.get_tenant_line_id(room_number) or admin_user_id
+        ok = False
+        if target:
+            ok = send_bill_image(user_id=target, original_url=public_url)
+        results[room_number] = {"to": target, "sent": ok}
+        if ok:
+            sent_count += 1
+
+    return {
+        "sent": sent_count,
+        "total": len(uploaded_urls or {}),
+        "results": results,
+    }

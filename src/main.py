@@ -130,13 +130,12 @@ def run_menu():
             print("\n--- ☁️ Uploading JPEGs to ImgBB (Parallel) ---")
             
             # Lazy imports
-            import json
             import concurrent.futures
             from pathlib import Path
             from src.upload_imgbb import upload_bill_to_imgbb
-            
-            jpeg_folder = Path("apartment_bill_jpeg/") 
-            url_storage_file = Path("json/uploaded_urls.json")
+            from src.database import save_uploaded_urls
+
+            jpeg_folder = Path("apartment_bill_jpeg/")
             
             if not jpeg_folder.exists() or not any(jpeg_folder.iterdir()):
                 print(f"❌ No JPEGs found in {jpeg_folder}. Did you run step 5?")
@@ -169,38 +168,33 @@ def run_menu():
             # 4. Sort the final dictionary keys just to keep the saved JSON tidy
             uploaded_data = dict(sorted(uploaded_data.items()))
 
-            # 5. Save the URLs to a JSON file for Step 7 to use
-            with open(url_storage_file, "w", encoding="utf-8") as f:
-                json.dump(uploaded_data, f, indent=4)
-                
-            print(f"\n✅ All uploads complete! URLs saved to {url_storage_file}")
+            # 5. Save the URLs to MongoDB for Step 7 to use
+            save_uploaded_urls(uploaded_data)
+            print(f"\n✅ All uploads complete! URLs saved to MongoDB ({len(uploaded_data)} rooms)")
 
         elif choice == "7":
             print("\n--- 📱 Sending Bills to Admin via LINE ---")
             import os
-            import json
-            from pathlib import Path
             from dotenv import load_dotenv
             from src.send_line_image import send_bill_image
-            
+            from src.database import DataNotFoundError, get_uploaded_urls
+
             load_dotenv()
             admin_user_id = os.getenv('ADMIN_LINE_USER_ID')
-            url_storage_file = Path("json/uploaded_urls.json")
 
             if not admin_user_id:
                 print("❌ Error: ADMIN_LINE_USER_ID not found in .env file.")
                 continue
-                
-            if not url_storage_file.exists():
-                print(f"❌ Error: {url_storage_file} not found. Please run Step 6 first.")
+
+            # Load the URLs generated in Step 6 from MongoDB
+            try:
+                uploaded_data = get_uploaded_urls()
+            except DataNotFoundError:
+                print("❌ Error: No uploaded URLs found in MongoDB. Please run Step 6 first.")
                 continue
-                
-            # Load the URLs generated in Step 6
-            with open(url_storage_file, "r", encoding="utf-8") as f:
-                uploaded_data = json.load(f)
-                
+
             if not uploaded_data:
-                print("⚠️ No URLs found in the storage file.")
+                print("⚠️ No URLs found in MongoDB.")
                 continue
                 
             print(f"Sending bills to Admin ID: {admin_user_id}")

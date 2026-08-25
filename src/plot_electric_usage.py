@@ -7,16 +7,17 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
 
-from src.processes import calculate_usage, flatten_meters, load_json_file
+import src.database as db
+from src.processes import calculate_usage, flatten_meters
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 def build_electric_usage_series():
-    info = load_json_file(BASE_DIR / "basic_info.json")
-    prev_meter = load_json_file(BASE_DIR / "previous_meter.json")
-    curr_meter = load_json_file(BASE_DIR / "current_meter.json")
+    info = db.get_basic_info()
+    prev_meter = db.get_previous_meter()
+    curr_meter = db.get_current_meter()
 
     prev_electric = flatten_meters(prev_meter.get("electric", []))
     curr_electric = flatten_meters(curr_meter.get("electric", []))

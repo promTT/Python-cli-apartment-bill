@@ -1,26 +1,8 @@
-import json
-from pathlib import Path
+import src.database as db
 
 
 MAX_METER_VALUE = 9999
 METER_CYCLE = 10000
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-BASIC_INFO_PATH = BASE_DIR / "json" / "basic_info.json"
-PREVIOUS_METER_PATH = BASE_DIR / "json" / "previous_meter.json"
-CURRENT_METER_PATH = BASE_DIR / "json" / "current_meter.json"
-FINAL_BILLS_PATH = BASE_DIR / "json" / "final_apartment_bills.json"
-
-
-
-def load_json(path: Path):
-    with path.open("r", encoding="utf-8") as file:
-        return json.load(file)
-
-
-def save_json(path: Path, data):
-    with path.open("w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
 
 
 def flatten_meters(meter_list):
@@ -210,14 +192,59 @@ def regenerate_final_bill():
     if not bill_data:
         return False
 
-    save_json(FINAL_BILLS_PATH, bill_data)
+    db.save_final_bills(bill_data)
     return True
 
 
+def detect_current_issues():
+    """Load meters from MongoDB and return the DRC issues (API / CLI reuse)."""
+    info = db.get_basic_info()
+    prev_meter = db.get_previous_meter()
+    curr_meter = db.get_current_meter()
+    return build_issues(info, prev_meter, curr_meter)
+
+
+def apply_fixes(fixes, prev_meter, curr_meter):
+    """Apply DRC fixes to the meter dicts (in place), save, and regenerate bills.
+
+    Each fix: {unit_number, meter_type, corrected_previous?, corrected_current?}.
+    Values must be integers in 0..9999; anything else is ignored.
+    Returns the number of value updates applied.
+    """
+    applied = 0
+    for fix in fixes or []:
+        unit = fix.get("unit_number")
+        meter_type = fix.get("meter_type")
+        if not unit or meter_type not in ("water", "electric"):
+            continue
+
+        prev_list = prev_meter.setdefault(meter_type, [])
+        curr_list = curr_meter.setdefault(meter_type, [])
+
+        for field, target_list in (("corrected_previous", prev_list),
+                                   ("corrected_current", curr_list)):
+            value = fix.get(field)
+            if value is None:
+                continue
+            try:
+                value = int(value)
+            except (TypeError, ValueError):
+                continue
+            if value < 0 or value > MAX_METER_VALUE:
+                continue
+            update_meter_value(target_list, unit, value)
+            applied += 1
+
+    db.save_previous_meter(prev_meter)
+    db.save_current_meter(curr_meter)
+    regenerate_final_bill()
+    return applied
+
+
 def main():
-    info = load_json(BASIC_INFO_PATH)
-    prev_meter = load_json(PREVIOUS_METER_PATH)
-    curr_meter = load_json(CURRENT_METER_PATH)
+    info = db.get_basic_info()
+    prev_meter = db.get_previous_meter()
+    curr_meter = db.get_current_meter()
 
     issues = build_issues(info, prev_meter, curr_meter)
     if not issues:
@@ -242,8 +269,8 @@ def main():
         apply_review_result(result, prev_meter, curr_meter)
         results.append(result)
 
-    save_json(PREVIOUS_METER_PATH, prev_meter)
-    save_json(CURRENT_METER_PATH, curr_meter)
+    db.save_previous_meter(prev_meter)
+    db.save_current_meter(curr_meter)
     regenerate_final_bill()
 
     print("\n" + "=" * 72)
@@ -251,7 +278,7 @@ def main():
     for result in results:
         print(format_summary_line(result))
     print("=" * 72)
-    print("บันทึกข้อมูลลง previous_meter.json และ current_meter.json เรียบร้อย")
+    print("บันทึกข้อมูลลง previous_meter และ current_meter ใน MongoDB เรียบร้อย")
 
 
 if __name__ == "__main__":

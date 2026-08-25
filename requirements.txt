@@ -2,3 +2,12 @@ reportlab
 PyMuPDF
 Pillow
 matplotlib
+requests
+certifi
+python-dotenv
+pymongo
+dnspython
+flask
+flask-cors
+PyJWT
+bcrypt

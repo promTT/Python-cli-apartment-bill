@@ -1,5 +1,8 @@
 # src/upload_imgbb.py
+import concurrent.futures
 import os
+from pathlib import Path
+
 import requests
 from dotenv import load_dotenv
 
@@ -51,3 +54,38 @@ def upload_bill_to_imgbb(image_path):
     except requests.exceptions.RequestException as e:
         print(f"❌ Failed to upload to ImgBB: {e}")
         return None
+
+
+def upload_all_bills(jpeg_dir="apartment_bill_jpeg/", max_workers=20):
+    """Upload every *.jpg in jpeg_dir to ImgBB in parallel.
+
+    Returns {room_number: public_url} for the uploads that succeeded.
+    """
+    folder = Path(jpeg_dir)
+    if not folder.exists():
+        print(f"❌ JPEG folder not found: {folder}")
+        return {}
+
+    image_files = sorted(folder.glob("*.jpg"))
+    if not image_files:
+        print(f"⚠️ No JPEGs found in {folder}.")
+        return {}
+
+    def process_upload(image_path):
+        room_number = image_path.stem
+        public_url = upload_bill_to_imgbb(str(image_path))
+        return room_number, public_url
+
+    uploaded = {}
+    print(f"Uploading {len(image_files)} images concurrently...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(process_upload, path): path for path in image_files}
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                room_number, public_url = future.result()
+                if public_url:
+                    uploaded[room_number] = public_url
+            except Exception as error:
+                print(f"❌ An error occurred during upload: {error}")
+
+    return dict(sorted(uploaded.items()))

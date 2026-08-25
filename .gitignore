@@ -149,3 +149,7 @@ Thumbs.db
 # IDEs / Editors
 .vscode/
 .idea/
+
+# Frontend (Vite / React)
+frontend/node_modules/
+frontend/dist/
