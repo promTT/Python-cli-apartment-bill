@@ -8,9 +8,7 @@ from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-# Import the logic from your other file
 from src.processes import get_calculated_bill_data
-
 def setup_thai_font():
     font_path = "Sarabun-Regular.ttf" 
     if os.path.exists(font_path):
@@ -143,14 +141,34 @@ def run_drc_menu():
     except EOFError:
         print("DRC canceled (input ended).")
 
+def run_csv_to_json_menu():
+    try:
+        from src.csv_to_json import run_csv_to_json_menu as csv_menu
+        csv_menu()
+    except Exception as error:
+        print(f"Failed to run CSV converter: {error}")
+
+def run_new_cycle_menu():
+    try:
+        from src.new_cycle import start_new_cycle
+        confirm = input("Are you sure you want to archive current data and start a new cycle? (Y/N): ").strip().upper()
+        if confirm == 'Y':
+            start_new_cycle()
+        else:
+            print("Canceled.")
+    except Exception as error:
+        print(f"Failed to start new cycle: {error}")
+
 
 def run_menu():
     while True:
         print("\nSelect an option:")
         print("1. Create apartment bill PDF")
         print("2. Convert PDF to JPEG")
-        print("3. Run DRC")
-        print("4. Exit")
+        print("3. Run DRC (Check Meters)")
+        print("4. Import CSV to current_meter.json")
+        print("5. Start New Billing Cycle (Archive & Rollover)")
+        print("6. Exit")
 
         try:
             choice = input("Enter choice: ").strip()
@@ -169,10 +187,14 @@ def run_menu():
         elif choice == "3":
             run_drc_menu()
         elif choice == "4":
+            run_csv_to_json_menu()
+        elif choice == "5":
+            run_new_cycle_menu()
+        elif choice == "6":
             print("Bye.")
             break
         else:
-            print("Invalid choice. Please enter 1, 2, 3, or 4.")
+            print("Invalid choice. Please enter a number between 1 and 6.")
 
 if __name__ == "__main__":
     run_menu()

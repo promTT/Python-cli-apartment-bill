@@ -2,11 +2,15 @@ import json
 from pathlib import Path
 
 
-BASE_DIR = Path(__file__).resolve().parent
-BASIC_INFO_PATH = BASE_DIR / "basic_info.json"
-PREVIOUS_METER_PATH = BASE_DIR / "previous_meter.json"
-CURRENT_METER_PATH = BASE_DIR / "current_meter.json"
-FINAL_BILLS_PATH = BASE_DIR / "final_apartment_bills.json"
+MAX_METER_VALUE = 9999
+METER_CYCLE = 10000
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+BASIC_INFO_PATH = BASE_DIR / "json" / "basic_info.json"
+PREVIOUS_METER_PATH = BASE_DIR / "json" / "previous_meter.json"
+CURRENT_METER_PATH = BASE_DIR / "json" / "current_meter.json"
+FINAL_BILLS_PATH = BASE_DIR / "json" / "final_apartment_bills.json"
+
 
 
 def load_json(path: Path):
@@ -73,6 +77,18 @@ def classify_issue(delta):
     return None
 
 
+def calculate_usage_with_rollover(previous_value, current_value):
+    if current_value >= previous_value:
+        return current_value - previous_value, False
+    return (METER_CYCLE - previous_value) + current_value, True
+
+
+def classify_issue_from_usage(usage):
+    if usage > 500:
+        return "เกิน 500 หน่วย"
+    return None
+
+
 def build_issues(info, prev_meter, curr_meter):
     rooms_config = info.get("rooms_config", {})
     prev_water = flatten_meters(prev_meter.get("water", []))
@@ -88,8 +104,20 @@ def build_issues(info, prev_meter, curr_meter):
         ):
             previous_value = previous_map.get(unit_number, 0)
             current_value = current_map.get(unit_number, 0)
-            delta = current_value - previous_value
-            issue_type = classify_issue(delta)
+            if (
+                previous_value < 0
+                or previous_value > MAX_METER_VALUE
+                or current_value < 0
+                or current_value > MAX_METER_VALUE
+            ):
+                issue_type = "นอกช่วง 0-9999"
+                usage = None
+                raw_delta = current_value - previous_value
+                rollover = False
+            else:
+                usage, rollover = calculate_usage_with_rollover(previous_value, current_value)
+                issue_type = classify_issue_from_usage(usage)
+                raw_delta = current_value - previous_value
             if issue_type is None:
                 continue
             issues.append({
@@ -97,7 +125,9 @@ def build_issues(info, prev_meter, curr_meter):
                 "meter_type": meter_type,
                 "previous_value": previous_value,
                 "current_value": current_value,
-                "delta": delta,
+                "delta": raw_delta,
+                "usage": usage,
+                "rollover": rollover,
                 "issue_type": issue_type,
             })
 
@@ -114,6 +144,8 @@ def review_issue(issue, prev_meter, curr_meter):
     previous_value = issue["previous_value"]
     current_value = issue["current_value"]
     delta = issue["delta"]
+    usage = issue.get("usage")
+    rollover = issue.get("rollover", False)
     issue_type = issue["issue_type"]
 
     print("\n" + "=" * 72)
@@ -121,6 +153,8 @@ def review_issue(issue, prev_meter, curr_meter):
     print(f"เดือนเก่า: {previous_value}")
     print(f"เดือนใหม่: {current_value}")
     print(f"ผลต่าง   : {delta}")
+    if usage is not None:
+        print(f"หน่วยใช้จริง: {usage}" + (" (มิเตอร์หมุน)" if rollover else ""))
 
     old_updated = None
     new_updated = None
@@ -192,9 +226,13 @@ def main():
 
     print("พบรายการที่ต้องตรวจสอบทั้งหมด")
     for issue in issues:
+        usage = issue.get("usage")
+        usage_text = f" | หน่วยใช้จริง {usage}" if usage is not None else ""
+        rollover_text = " | มิเตอร์หมุน" if issue.get("rollover", False) else ""
         print(
             f"- ห้อง {issue['unit_number']} | {describe_meter_type(issue['meter_type'])} | "
-            f"เดือนเก่า {issue['previous_value']} -> เดือนใหม่ {issue['current_value']} | {issue['issue_type']}"
+            f"เดือนเก่า {issue['previous_value']} -> เดือนใหม่ {issue['current_value']} | "
+            f"{issue['issue_type']}{usage_text}{rollover_text}"
         )
 
     print("\nเริ่มตรวจทีละห้อง")
