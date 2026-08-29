@@ -58,7 +58,7 @@ def convert_csv_to_json(csv_path: Path):
     return True
 
 def run_csv_to_json_menu():
-    default_csv = "meters.csv"
+    default_csv = BASE_DIR / "meters.csv"
     csv_input = input(f"Enter CSV file path (press Enter for {default_csv}): ").strip().strip('"')
     if not csv_input:
         csv_input = default_csv

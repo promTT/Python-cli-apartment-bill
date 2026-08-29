@@ -1,90 +1,4 @@
-import os
 from pathlib import Path
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.units import inch
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
-from reportlab.lib import colors
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-
-from src.processes import get_calculated_bill_data
-def setup_thai_font():
-    font_path = "Sarabun-Regular.ttf" 
-    if os.path.exists(font_path):
-        font_name = "Sarabun-Arabic"
-        pdfmetrics.registerFont(TTFont(font_name, font_path))
-        return font_name
-    else:
-        print("Warning: Font file not found, using Helvetica.")
-        return "Helvetica"
-
-def create_apartment_bill_pdf(bill_data, output_filename="apartment_bill.pdf"):
-    font_name = setup_thai_font()
-    doc = SimpleDocTemplate(output_filename, pagesize=letter, leftMargin=0.5*inch, rightMargin=0.5*inch, topMargin=0.5*inch, bottomMargin=0.5*inch)
-    elements = []
-    styles = getSampleStyleSheet()
-
-    title_style = ParagraphStyle('Title', fontSize=18, leading=22, fontName=font_name)
-    address_style = ParagraphStyle('Address', fontSize=10, leading=12, fontName=font_name)
-    customer_style = ParagraphStyle('Customer', fontSize=11, spaceBefore=10, spaceAfter=10, fontName=font_name)
-
-    rooms = bill_data.get('rooms', [])
-    for idx, room in enumerate(rooms):
-        elements.append(Paragraph(bill_data.get('apartment_name', ''), title_style))
-        elements.append(Paragraph(bill_data.get('apartment_address', ''), address_style))
-        elements.append(Paragraph(f"โทร. {bill_data.get('phone', '')} / อีเมล. {bill_data.get('email', '')}", address_style))
-        elements.append(Spacer(1, 0.2*inch))
-        elements.append(Paragraph(f"ลูกค้า (Customer) - ห้อง: {room.get('unit_number', 'N/A')}", customer_style))
-
-        charges_data = [['ลำดับ(#)', 'รายการชำระ (Description)', 'ราคา(Price)']]
-        total = 0
-# ตรงนี้คือส่วนเดิมในโค้ดคุณ ให้แก้เป็นแบบนี้:
-        for i, charge in enumerate(room.get('charges', []), 1):
-            desc = charge.get('description', 'N/A')
-            
-            # บังคับให้เป็น float เพื่อให้ f-string พ่นเลขฮินดูอารบิกออกมา
-            try:
-                price = float(charge.get('amount', 0))
-            except:
-                price = 0.0
-                
-            charges_data.append([str(i), desc, f"{price:,.2f}"])
-            total += price
-        charges_data.append(['', 'จำนวนเงินรวมทั้งสิ้น (Total amount)', f"{total:,.2f} บาท"])
-
-        table = Table(charges_data, colWidths=[0.8*inch, 4.5*inch, 1.7*inch])
-        table.setStyle(TableStyle([
-            ('GRID', (0, 0), (-1, -1), 0.5, colors.black),
-            ('FONTNAME', (0, 0), (-1, -1), font_name),
-            ('ALIGN', (0, 0), (0, -1), 'CENTER'),
-            ('ALIGN', (2, 0), (2, -1), 'RIGHT'),
-            ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
-            ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
-            ('TOPPADDING', (0, 0), (-1, -1), 8),
-        ]))
-        elements.append(table)
-        elements.append(Spacer(1, 0.3*inch))
-
-        footer_data = [
-            [f"ใบแจ้งหนี้ (Invoice): {room.get('invoice_type', 'ต้นฉบับ (Original)')}"],
-            [f"เลขที่ (ID): {room.get('invoice_id', 'N/A')}"],
-            [f"วันที่ (Date): {room.get('bill_date', 'N/A')}"],
-            [f"ห้อง (Room): {room.get('unit_number', 'N/A')}"],
-            [f"พนักงาน (Staff): {room.get('staff_name', 'N/A')}"]
-        ]
-        footer_table = Table(footer_data, colWidths=[6.5*inch])
-        footer_table.setStyle(TableStyle([
-            ('FONTSIZE', (0, 0), (-1, -1), 10),
-            ('FONTNAME', (0, 0), (-1, -1), font_name),
-        ]))
-        elements.append(footer_table)
-
-        if idx < len(rooms) - 1:
-            elements.append(PageBreak())
-
-    doc.build(elements)
-    print(f"PDF created successfully: {output_filename}")
 
 
 def convert_pdf_menu():
@@ -160,41 +74,170 @@ def run_new_cycle_menu():
         print(f"Failed to start new cycle: {error}")
 
 
+def run_rollover_and_import_menu():
+    try:
+        from src.new_cycle import start_new_cycle
+        from src.csv_to_json import run_csv_to_json_menu
+        
+        print("\n--- Start New Billing Cycle & Import CSV ---")
+        confirm = input("This will archive current data and prepare for the new month. Continue? (Y/N): ").strip().upper()
+        if confirm == 'Y':
+            # 1. Archive the old month and roll over the current meters
+            start_new_cycle()
+            # 2. Prompt for the new CSV to import
+            print("\nNow, let's import the new meter readings for the current month.")
+            run_csv_to_json_menu()
+        else:
+            print("Canceled.")
+    except Exception as error:
+        print(f"Failed to run the combined cycle/import workflow: {error}")
+
+
 def run_menu():
     while True:
-        print("\nSelect an option:")
-        print("1. Create apartment bill PDF")
-        print("2. Convert PDF to JPEG")
+        print("\n--- Apartment Billing System ---")
+        print("1. Start New Billing Cycle (Archive & Rollover)")
+        print("2. Import CSV to JSON")
         print("3. Run DRC (Check Meters)")
-        print("4. Import CSV to current_meter.json")
-        print("5. Start New Billing Cycle (Archive & Rollover)")
-        print("6. Exit")
-
-        try:
-            choice = input("Enter choice: ").strip()
-        except EOFError:
-            print("\nBye.")
-            break
+        print("4. Create apartment bill PDF")
+        print("5. Convert PDF to JPEG")
+        print("6. Upload JPEGs to Cloud (ImgBB)")
+        print("7. Send Bills via LINE OA")
+        print("8. Exit")
+        
+        choice = input("Enter choice (1-8): ")
 
         if choice == "1":
-            data = get_calculated_bill_data()
-            if data:
-                create_apartment_bill_pdf(data, "apartment_bill.pdf")
-            else:
-                print("Failed to get bill data. Check your JSON files.")
+            print("\n--- Starting New Cycle ---")
+            from src.new_cycle import start_new_cycle
+            
+            start_new_cycle()
+            print("✅ Cycle rolled over and old data archived safely.")
+
         elif choice == "2":
-            convert_pdf_menu()
-        elif choice == "3":
-            run_drc_menu()
-        elif choice == "4":
+            print("\n--- Importing CSV ---")
+            from src.csv_to_json import run_csv_to_json_menu
+            
             run_csv_to_json_menu()
+            print("✅ New CSV imported safely.")
+
+        elif choice == "3":
+            print("\n--- Running DRC ---")
+            from src.drc import main
+            
+            main()
+
+        elif choice == "4":
+            print("\n--- Creating PDF Bills ---")
+            from src.processes import get_calculated_bill_data
+            from src.create_bill import create_apartment_bill_pdf
+            
+            data = get_calculated_bill_data()
+            create_apartment_bill_pdf(data)
+            print("✅ PDFs generated successfully.")
+
         elif choice == "5":
-            run_new_cycle_menu()
+            print("\n--- Converting PDF to JPEG ---")
+            from src.pdf_to_jpeg import convert_pdf_to_jpeg
+            
+            # Pass the name of your generated PDF file directly into the function
+            convert_pdf_to_jpeg("apartment_bill.pdf")
+            print("✅ PDFs converted to JPEGs.")
+
         elif choice == "6":
-            print("Bye.")
+            print("\n--- ☁️ Uploading JPEGs to ImgBB (Parallel) ---")
+            
+            # Lazy imports
+            import json
+            import concurrent.futures
+            from pathlib import Path
+            from src.upload_imgbb import upload_bill_to_imgbb
+            
+            jpeg_folder = Path("apartment_bill_jpeg/") 
+            url_storage_file = Path("json/uploaded_urls.json")
+            
+            if not jpeg_folder.exists() or not any(jpeg_folder.iterdir()):
+                print(f"❌ No JPEGs found in {jpeg_folder}. Did you run step 5?")
+                continue
+            
+            # 1. Gather and SORT the files so they process in order
+            image_files = sorted(jpeg_folder.glob("*.jpg"))
+            
+            uploaded_data = {}
+            print(f"Uploading {len(image_files)} images concurrently. This will be fast!...")
+            
+            # 2. Define a helper function for the thread pool to execute
+            def process_upload(image_path):
+                room_number = image_path.stem 
+                public_url = upload_bill_to_imgbb(str(image_path))
+                return room_number, public_url
+
+            # 3. Use ThreadPoolExecutor to upload in parallel
+            with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+                futures = {executor.submit(process_upload, path): path for path in image_files}
+                
+                for future in concurrent.futures.as_completed(futures):
+                    try:
+                        room_number, public_url = future.result()
+                        if public_url:
+                            uploaded_data[room_number] = public_url
+                    except Exception as e:
+                        print(f"❌ An error occurred during upload: {e}")
+            
+            # 4. Sort the final dictionary keys just to keep the saved JSON tidy
+            uploaded_data = dict(sorted(uploaded_data.items()))
+
+            # 5. Save the URLs to a JSON file for Step 7 to use
+            with open(url_storage_file, "w", encoding="utf-8") as f:
+                json.dump(uploaded_data, f, indent=4)
+                
+            print(f"\n✅ All uploads complete! URLs saved to {url_storage_file}")
+
+        elif choice == "7":
+            print("\n--- 📱 Sending Bills to Admin via LINE ---")
+            import os
+            import json
+            from pathlib import Path
+            from dotenv import load_dotenv
+            from src.send_line_image import send_bill_image
+            
+            load_dotenv()
+            admin_user_id = os.getenv('ADMIN_LINE_USER_ID')
+            url_storage_file = Path("json/uploaded_urls.json")
+
+            if not admin_user_id:
+                print("❌ Error: ADMIN_LINE_USER_ID not found in .env file.")
+                continue
+                
+            if not url_storage_file.exists():
+                print(f"❌ Error: {url_storage_file} not found. Please run Step 6 first.")
+                continue
+                
+            # Load the URLs generated in Step 6
+            with open(url_storage_file, "r", encoding="utf-8") as f:
+                uploaded_data = json.load(f)
+                
+            if not uploaded_data:
+                print("⚠️ No URLs found in the storage file.")
+                continue
+                
+            print(f"Sending bills to Admin ID: {admin_user_id}")
+            
+            for room_number, public_url in uploaded_data.items():
+                print(f"Sending Room {room_number}...")
+                send_bill_image(
+                    user_id=admin_user_id,
+                    original_url=public_url
+                )
+            
+            print("\n✅ All bills successfully sent to the Admin!")
+
+        elif choice == "8":
+            print("Exiting system. Have a great day!")
             break
+            
         else:
-            print("Invalid choice. Please enter a number between 1 and 6.")
+            print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     run_menu()

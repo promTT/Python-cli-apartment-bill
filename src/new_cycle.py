@@ -24,7 +24,7 @@ def start_new_cycle():
     try:
         info = load_json(BASIC_INFO_PATH)
         month_raw = info.get("billing_month", "unknown_month")
-        # Replace slashes so it doesn't create nested directories (e.g., 07/2026 -> 07-2026)
+        # Replace slashes so it doesn't create nested directories (e.g., 06/2569 -> 06-2569)
         safe_month_str = month_raw.replace("/", "-") 
     except FileNotFoundError:
         print("Error: basic_info.json not found.")
@@ -51,13 +51,35 @@ def start_new_cycle():
     # 4. Roll over current meters to become the new previous meters
     shutil.copy2(CURR_METER_PATH, PREV_METER_PATH)
     print("Rolled over: current_meter.json is now previous_meter.json")
+    
+    # 5. Update basic_info.json with the new month and date
+    print("\n" + "-"*50)
+    print("Update basic_info.json for the new cycle")
+    
+    current_date = info.get("bill_date", "")
+    print(f"Current billing_month : {month_raw}")
+    new_month = input(f"Enter new billing_month (or press Enter to keep '{month_raw}'): ").strip()
+    
+    print(f"Current bill_date     : {current_date}")
+    new_date = input(f"Enter new bill_date (or press Enter to keep '{current_date}'): ").strip()
+    
+    updated = False
+    if new_month:
+        info["billing_month"] = new_month
+        updated = True
+    if new_date:
+        info["bill_date"] = new_date
+        updated = True
+        
+    if updated:
+        with open(BASIC_INFO_PATH, 'w', encoding='utf-8') as file:
+            json.dump(info, file, ensure_ascii=False, indent=4)
+        print("Successfully updated basic_info.json!")
+    else:
+        print("Kept old dates in basic_info.json.")
 
     print("\n" + "="*50)
     print("CYCLE ROLLOVER COMPLETE!")
-    print("Next steps for the new month:")
-    print(" 1. Update 'billing_month' and 'bill_date' in json/basic_info.json")
-    print(" 2. Export your new Excel meter readings to CSV")
-    print(" 3. Run 'csv_to_json.py' to generate the new current_meter.json")
     print("="*50)
 
 if __name__ == "__main__":
@@ -65,4 +87,4 @@ if __name__ == "__main__":
     if confirm == 'Y':
         start_new_cycle()
     else:
-        print("Canceled.")  
+        print("Canceled.")

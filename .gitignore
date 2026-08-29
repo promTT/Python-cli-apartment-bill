@@ -1,7 +1,10 @@
 apartment_bill_jpeg/*
+*.env
+note.txt
 *.pdf
 *.jpg
 __pycache__/*
+*.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
