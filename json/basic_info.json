@@ -350,9 +350,8 @@
             "maintenance_fee": 350.0
         },
         "206/2": {
-            "room_price": 2400.0,
-            "maintenance_fee": 100.0,
-            "car_park_rate": 400.0
+            "room_price": 2300.0,
+            "maintenance_fee": 100.0
         },
         "207/2": {
             "room_price": 2100.0,
