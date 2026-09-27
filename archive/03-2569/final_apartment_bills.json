@@ -1,0 +1,2968 @@
+{
+    "apartment_name": "ประภาสอพาร์ทเม้นท์",
+    "apartment_address": "บ้านเลขที่ 3 ซ.74/1 แขวงบางบอน เขตบางบอน กทม. 10150",
+    "phone": "0814304480",
+    "email": "praphat.aphartment@gmail.com",
+    "rooms": [
+        {
+            "unit_number": "101/1",
+            "invoice_id": "INV256903000001",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 101/1 เดือน 03/2569",
+                    "amount": 2500.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (320-313=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6841-6441=400)",
+                    "amount": 3000.0
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 250.0
+                }
+            ]
+        },
+        {
+            "unit_number": "102/1",
+            "invoice_id": "INV256903000002",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 102/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1194-1982=9212)",
+                    "amount": 138180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4274-4228=46)",
+                    "amount": 230
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "103/1",
+            "invoice_id": "INV256903000003",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 103/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1841-1829=12)",
+                    "amount": 180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2767-2717=50)",
+                    "amount": 250
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "104/1",
+            "invoice_id": "INV256903000004",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 104/1 เดือน 03/2569",
+                    "amount": 2600.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (715-704=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8780-8688=92)",
+                    "amount": 460
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "105/1",
+            "invoice_id": "INV256903000005",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 105/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (266-258=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3958-3902=56)",
+                    "amount": 280
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าอินเตอร์เน็ต (Internet rate)",
+                    "amount": 100.0
+                }
+            ]
+        },
+        {
+            "unit_number": "106/1",
+            "invoice_id": "INV256903000006",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 106/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (20-16=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6794-6743=51)",
+                    "amount": 255
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "107/1",
+            "invoice_id": "INV256903000007",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 107/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (357-349=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1549-1492=57)",
+                    "amount": 285
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "108/1",
+            "invoice_id": "INV256903000008",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 108/1 เดือน 03/2569",
+                    "amount": 3500.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2816-2802=14)",
+                    "amount": 210.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (509-319=190)",
+                    "amount": 950
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 250.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "109/1",
+            "invoice_id": "INV256903000009",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 109/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (0-0=0)",
+                    "amount": 0.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4425-0=4425)",
+                    "amount": 22125
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "110/1",
+            "invoice_id": "INV256903000010",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 110/1 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (83-74=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3295-3247=48)",
+                    "amount": 240
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "111/1",
+            "invoice_id": "INV256903000011",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 111/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (32-31=1)",
+                    "amount": 15.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4527-4482=45)",
+                    "amount": 225
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "112/1",
+            "invoice_id": "INV256903000012",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 112/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (3147-3137=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6430-6372=58)",
+                    "amount": 290
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "113/1",
+            "invoice_id": "INV256903000013",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 113/1 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (765-762=3)",
+                    "amount": 45.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (5573-5539=34)",
+                    "amount": 170
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "114/1",
+            "invoice_id": "INV256903000014",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 114/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (303-295=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (98-45=53)",
+                    "amount": 265
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "115/1",
+            "invoice_id": "INV256903000015",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 115/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (588-574=14)",
+                    "amount": 210.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (133-72=61)",
+                    "amount": 305
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "201/1",
+            "invoice_id": "INV256903000016",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 201/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (500-489=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6128-6056=72)",
+                    "amount": 360
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าอินเตอร์เน็ต (Internet rate)",
+                    "amount": 100.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 300.0
+                }
+            ]
+        },
+        {
+            "unit_number": "202/1",
+            "invoice_id": "INV256903000017",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 202/1 เดือน 03/2569",
+                    "amount": 1900.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2141-2130=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (944-868=76)",
+                    "amount": 380
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "203/1",
+            "invoice_id": "INV256903000018",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 203/1 เดือน 03/2569",
+                    "amount": 2300.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (245-237=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7822-7773=49)",
+                    "amount": 245
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "204/1",
+            "invoice_id": "INV256903000019",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 204/1 เดือน 03/2569",
+                    "amount": 2300.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (373-368=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6431-6374=57)",
+                    "amount": 285
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "205/1",
+            "invoice_id": "INV256903000020",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 205/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (854-844=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9533-9507=26)",
+                    "amount": 130
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "206/1",
+            "invoice_id": "INV256903000021",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 206/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (799-788=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1649-1570=79)",
+                    "amount": 395
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "207/1",
+            "invoice_id": "INV256903000022",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 207/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1533-1527=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8818-8779=39)",
+                    "amount": 195
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "208/1",
+            "invoice_id": "INV256903000023",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 208/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1000-972=28)",
+                    "amount": 420.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2455-2394=61)",
+                    "amount": 305
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "209/1",
+            "invoice_id": "INV256903000024",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 209/1 เดือน 03/2569",
+                    "amount": 2300.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (681-678=3)",
+                    "amount": 45.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9588-9558=30)",
+                    "amount": 150
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "210/1",
+            "invoice_id": "INV256903000025",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 210/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (304-298=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (5820-5776=44)",
+                    "amount": 220
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "211/1",
+            "invoice_id": "INV256903000026",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 211/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1808-1804=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (966-909=57)",
+                    "amount": 285
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "212/1",
+            "invoice_id": "INV256903000027",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 212/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1714-1711=3)",
+                    "amount": 45.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1964-1910=54)",
+                    "amount": 270
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "213/1",
+            "invoice_id": "INV256903000028",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 213/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1321-1316=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8122-8067=55)",
+                    "amount": 275
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "214/1",
+            "invoice_id": "INV256903000029",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 214/1 เดือน 03/2569",
+                    "amount": 1900.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1868-1862=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3436-3379=57)",
+                    "amount": 285
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "215/1",
+            "invoice_id": "INV256903000030",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 215/1 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (137-132=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4171-4126=45)",
+                    "amount": 225
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "301/1",
+            "invoice_id": "INV256903000031",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 301/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2622-2611=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7534-7612=9922)",
+                    "amount": 49610
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "302/1",
+            "invoice_id": "INV256903000032",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 302/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2306-2301=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9588-9514=74)",
+                    "amount": 370
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "303/1",
+            "invoice_id": "INV256903000033",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 303/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (46-37=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8544-8402=142)",
+                    "amount": 710
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "304/1",
+            "invoice_id": "INV256903000034",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 304/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (747-737=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6192-6093=99)",
+                    "amount": 495
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "305/1",
+            "invoice_id": "INV256903000035",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 305/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2308-2280=28)",
+                    "amount": 420.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (388-328=60)",
+                    "amount": 300
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "306/1",
+            "invoice_id": "INV256903000036",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 306/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (413-406=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1698-1665=33)",
+                    "amount": 165
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "307/1",
+            "invoice_id": "INV256903000037",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 307/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2936-2933=3)",
+                    "amount": 45.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1913-1892=21)",
+                    "amount": 105
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "308/1",
+            "invoice_id": "INV256903000038",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 308/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (599-586=13)",
+                    "amount": 195.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2500-2425=75)",
+                    "amount": 375
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "309/1",
+            "invoice_id": "INV256903000039",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 309/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (364-354=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2696-2639=57)",
+                    "amount": 285
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "310/1",
+            "invoice_id": "INV256903000040",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 310/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1716-1784=9932)",
+                    "amount": 148980.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2523-2492=31)",
+                    "amount": 155
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "311/1",
+            "invoice_id": "INV256903000041",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 311/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2304-2292=12)",
+                    "amount": 180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7252-7174=78)",
+                    "amount": 390
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "312/1",
+            "invoice_id": "INV256903000042",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 312/1 เดือน 03/2569",
+                    "amount": 1800.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (144-135=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (5331-5261=70)",
+                    "amount": 350
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "313/1",
+            "invoice_id": "INV256903000043",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 313/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (589-577=12)",
+                    "amount": 180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1296-1244=52)",
+                    "amount": 260
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "314/1",
+            "invoice_id": "INV256903000044",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 314/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (64-62=2)",
+                    "amount": 30.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (236-226=10)",
+                    "amount": 50
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "315/1",
+            "invoice_id": "INV256903000045",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 315/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (882-862=20)",
+                    "amount": 300.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9977-9835=142)",
+                    "amount": 710
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "401/1",
+            "invoice_id": "INV256903000046",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 401/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2034-2029=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8137-8079=58)",
+                    "amount": 290
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "402/1",
+            "invoice_id": "INV256903000047",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 402/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2005-1996=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1017-957=60)",
+                    "amount": 300
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "403/1",
+            "invoice_id": "INV256903000048",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 403/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1775-1767=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3905-3844=61)",
+                    "amount": 305
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "404/1",
+            "invoice_id": "INV256903000049",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 404/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (143-136=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9116-9027=89)",
+                    "amount": 445
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "405/1",
+            "invoice_id": "INV256903000050",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 405/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (81-76=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3040-2946=94)",
+                    "amount": 470
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "406/1",
+            "invoice_id": "INV256903000051",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 406/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (92-82=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2360-2302=58)",
+                    "amount": 290
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "407/1",
+            "invoice_id": "INV256903000052",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 407/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1549-1538=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1251-1191=60)",
+                    "amount": 300
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "408/1",
+            "invoice_id": "INV256903000053",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 408/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (515-515=0)",
+                    "amount": 0.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7275-7275=0)",
+                    "amount": 0
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "409/1",
+            "invoice_id": "INV256903000054",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 409/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (36-25=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4436-4399=37)",
+                    "amount": 185
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "410/1",
+            "invoice_id": "INV256903000055",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 410/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2272-2264=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2226-2182=44)",
+                    "amount": 220
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "411/1",
+            "invoice_id": "INV256903000056",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 411/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2058-2050=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6536-6440=96)",
+                    "amount": 480
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "412/1",
+            "invoice_id": "INV256903000057",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 412/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (316-304=12)",
+                    "amount": 180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2105-2028=77)",
+                    "amount": 385
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "413/1",
+            "invoice_id": "INV256903000058",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 413/1 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (349-339=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6295-6263=32)",
+                    "amount": 160
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "414/1",
+            "invoice_id": "INV256903000059",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 414/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2440-2425=15)",
+                    "amount": 225.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6056-5944=112)",
+                    "amount": 560
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "415/1",
+            "invoice_id": "INV256903000060",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 415/1 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2232-2221=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (418-296=122)",
+                    "amount": 610
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "101/2",
+            "invoice_id": "INV256903000061",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 101/2 เดือน 03/2569",
+                    "amount": 2500.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (443-421=22)",
+                    "amount": 330.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6276-6199=77)",
+                    "amount": 385
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "102/2",
+            "invoice_id": "INV256903000062",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 102/2 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (539-529=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9874-9833=41)",
+                    "amount": 205
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "103/2",
+            "invoice_id": "INV256903000063",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 103/2 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (605-601=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1050-1027=23)",
+                    "amount": 115
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "104/2",
+            "invoice_id": "INV256903000064",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 104/2 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (661-651=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (340-285=55)",
+                    "amount": 275
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "105/2",
+            "invoice_id": "INV256903000065",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 105/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (778-774=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9295-9255=40)",
+                    "amount": 200
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "106/2",
+            "invoice_id": "INV256903000066",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 106/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1948-1938=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8023-7985=38)",
+                    "amount": 190
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "107/2",
+            "invoice_id": "INV256903000067",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 107/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (302-293=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2170-2065=105)",
+                    "amount": 525
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "108/2",
+            "invoice_id": "INV256903000068",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 108/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (740-723=17)",
+                    "amount": 255.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4013-3878=135)",
+                    "amount": 675
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "109/2",
+            "invoice_id": "INV256903000069",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 109/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (801-782=19)",
+                    "amount": 285.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (187-10061=126)",
+                    "amount": 630
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "110/2",
+            "invoice_id": "INV256903000070",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 110/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2101-2083=18)",
+                    "amount": 270.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3116-2995=121)",
+                    "amount": 605
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "111/2",
+            "invoice_id": "INV256903000071",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 111/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (203-190=13)",
+                    "amount": 195.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3574-3494=80)",
+                    "amount": 400
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "112/2",
+            "invoice_id": "INV256903000072",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 112/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (451-445=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (36-9989=47)",
+                    "amount": 235
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "113/2",
+            "invoice_id": "INV256903000073",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 113/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (304-297=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2259-2170=89)",
+                    "amount": 445
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "114/2",
+            "invoice_id": "INV256903000074",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 114/2 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (104-94=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9732-9657=75)",
+                    "amount": 375
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "115/2",
+            "invoice_id": "INV256903000075",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 115/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (631-625=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1043-983=60)",
+                    "amount": 300
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "201/2",
+            "invoice_id": "INV256903000076",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 201/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (417-404=13)",
+                    "amount": 195.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8358-8262=96)",
+                    "amount": 480
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "202/2",
+            "invoice_id": "INV256903000077",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 202/2 เดือน 03/2569",
+                    "amount": 2300.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (239-228=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4209-4076=133)",
+                    "amount": 665
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "203/2",
+            "invoice_id": "INV256903000078",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 203/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (71-68=3)",
+                    "amount": 45.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4511-4492=19)",
+                    "amount": 95
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "204/2",
+            "invoice_id": "INV256903000079",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 204/2 เดือน 03/2569",
+                    "amount": 2300.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (635-626=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6427-6324=103)",
+                    "amount": 515
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "205/2",
+            "invoice_id": "INV256903000080",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 205/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (591-576=15)",
+                    "amount": 225.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (804-731=73)",
+                    "amount": 365
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "206/2",
+            "invoice_id": "INV256903000081",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 206/2 เดือน 03/2569",
+                    "amount": 2400.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (359-346=13)",
+                    "amount": 195.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6163-6029=134)",
+                    "amount": 670
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 100.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "207/2",
+            "invoice_id": "INV256903000082",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 207/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (967-961=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2412-2399=13)",
+                    "amount": 65
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "208/2",
+            "invoice_id": "INV256903000083",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 208/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (2134-2122=12)",
+                    "amount": 180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7383-7267=116)",
+                    "amount": 580
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "209/2",
+            "invoice_id": "INV256903000084",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 209/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (336-328=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7131-7063=68)",
+                    "amount": 340
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "210/2",
+            "invoice_id": "INV256903000085",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 210/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (394-389=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7466-7422=44)",
+                    "amount": 220
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                },
+                {
+                    "description": "ค่าที่จอดรถ (Car park rate)",
+                    "amount": 400.0
+                }
+            ]
+        },
+        {
+            "unit_number": "211/2",
+            "invoice_id": "INV256903000086",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 211/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (97-88=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9820-9720=100)",
+                    "amount": 500
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "212/2",
+            "invoice_id": "INV256903000087",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 212/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (528-523=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9355-9331=24)",
+                    "amount": 120
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "213/2",
+            "invoice_id": "INV256903000088",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 213/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (394-340=54)",
+                    "amount": 810.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8283-8145=138)",
+                    "amount": 690
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "214/2",
+            "invoice_id": "INV256903000089",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 214/2 เดือน 03/2569",
+                    "amount": 2300.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (94-90=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9380-9352=28)",
+                    "amount": 140
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "215/2",
+            "invoice_id": "INV256903000090",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 215/2 เดือน 03/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (107-103=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (107-52=55)",
+                    "amount": 275
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "301/2",
+            "invoice_id": "INV256903000091",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 301/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (376-368=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (5810-5775=35)",
+                    "amount": 175
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "302/2",
+            "invoice_id": "INV256903000092",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 302/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1051-1044=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2295-2241=54)",
+                    "amount": 270
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "303/2",
+            "invoice_id": "INV256903000093",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 303/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (93-92=1)",
+                    "amount": 15.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (8676-8638=38)",
+                    "amount": 190
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "304/2",
+            "invoice_id": "INV256903000094",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 304/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (265-256=9)",
+                    "amount": 135.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (820-732=88)",
+                    "amount": 440
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "305/2",
+            "invoice_id": "INV256903000095",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 305/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (417-410=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9742-9694=48)",
+                    "amount": 240
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "306/2",
+            "invoice_id": "INV256903000096",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 306/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (464-448=16)",
+                    "amount": 240.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1435-1321=114)",
+                    "amount": 570
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "307/2",
+            "invoice_id": "INV256903000097",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 307/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (112-107=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7853-7828=25)",
+                    "amount": 125
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "308/2",
+            "invoice_id": "INV256903000098",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 308/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (298-294=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9140-9121=19)",
+                    "amount": 95
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "309/2",
+            "invoice_id": "INV256903000099",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 309/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (307-292=15)",
+                    "amount": 225.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9596-9471=125)",
+                    "amount": 625
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "310/2",
+            "invoice_id": "INV256903000100",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 310/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (403-396=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6954-6896=58)",
+                    "amount": 290
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "311/2",
+            "invoice_id": "INV256903000101",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 311/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (151-144=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3578-3531=47)",
+                    "amount": 235
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "312/2",
+            "invoice_id": "INV256903000102",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 312/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1045-1025=20)",
+                    "amount": 300.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6107-6068=39)",
+                    "amount": 195
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "313/2",
+            "invoice_id": "INV256903000103",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 313/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (736-723=13)",
+                    "amount": 195.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (31-9963=68)",
+                    "amount": 340
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "314/2",
+            "invoice_id": "INV256903000104",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 314/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (346-335=11)",
+                    "amount": 165.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (4128-4045=83)",
+                    "amount": 415
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "315/2",
+            "invoice_id": "INV256903000105",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 315/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (380-370=10)",
+                    "amount": 150.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2145-2092=53)",
+                    "amount": 265
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "401/2",
+            "invoice_id": "INV256903000106",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 401/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (1103-1097=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3486-3421=65)",
+                    "amount": 325
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "402/2",
+            "invoice_id": "INV256903000107",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 402/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (229-223=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3170-3174=9996)",
+                    "amount": 49980
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "403/2",
+            "invoice_id": "INV256903000108",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 403/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (936-932=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7356-7328=28)",
+                    "amount": 140
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "404/2",
+            "invoice_id": "INV256903000109",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 404/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (199-192=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (6820-6764=56)",
+                    "amount": 280
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "405/2",
+            "invoice_id": "INV256903000110",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 405/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (478-466=12)",
+                    "amount": 180.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1009-921=88)",
+                    "amount": 440
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "406/2",
+            "invoice_id": "INV256903000111",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 406/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (308-292=16)",
+                    "amount": 240.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2860-2681=179)",
+                    "amount": 895
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "407/2",
+            "invoice_id": "INV256903000112",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 407/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (57-52=5)",
+                    "amount": 75.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7878-7837=41)",
+                    "amount": 205
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "408/2",
+            "invoice_id": "INV256903000113",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 408/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (608-604=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (2089-2048=41)",
+                    "amount": 205
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "409/2",
+            "invoice_id": "INV256903000114",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 409/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (708-693=15)",
+                    "amount": 225.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (3179-3161=18)",
+                    "amount": 90
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "410/2",
+            "invoice_id": "INV256903000115",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 410/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (183-180=3)",
+                    "amount": 45.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1871-1727=144)",
+                    "amount": 720
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "411/2",
+            "invoice_id": "INV256903000116",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 411/2 เดือน 03/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (376-356=20)",
+                    "amount": 300.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (7733-7683=50)",
+                    "amount": 250
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "412/2",
+            "invoice_id": "INV256903000117",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 412/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (324-317=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (9093-9016=77)",
+                    "amount": 385
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "413/2",
+            "invoice_id": "INV256903000118",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 413/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (995-989=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (422-350=72)",
+                    "amount": 360
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "414/2",
+            "invoice_id": "INV256903000119",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 414/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (375-367=8)",
+                    "amount": 120.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (1720-1653=67)",
+                    "amount": 335
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "415/2",
+            "invoice_id": "INV256903000120",
+            "bill_date": "25/03/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 415/2 เดือน 03/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 03/2569 (228-214=14)",
+                    "amount": 210.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 03/2569 (789-643=146)",
+                    "amount": 730
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        }
+    ]
+}

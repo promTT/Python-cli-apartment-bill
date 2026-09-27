@@ -1,228 +1,179 @@
-from src.processes import flatten_meters, get_room_rate, load_json_file
+from dataclasses import dataclass, field
+import csv
+import json
+import re
+from pathlib import Path
 
 
-def money(value):
-	return f"{value:,.2f}"
+BASE_DIR = Path(__file__).resolve().parent.parent
+ARCHIVE_DIR = BASE_DIR / "archive"
+CSV_OUTPUT_PATH = ARCHIVE_DIR / "apartment_bill_summary_class.csv"
+USAGE_PATTERN = re.compile(r"=([0-9]+(?:\.[0-9]+)?)\)")
+EXCLUDED_UNITS = {"109/1"}
+SUSPICIOUS_ROOM_TOTAL = 5000
 
 
-def build_summary():
-	info = load_json_file("basic_info.json")
-	prev_meter = load_json_file("previous_meter.json")
-	curr_meter = load_json_file("current_meter.json")
+@dataclass(frozen=True)
+class Charge:
+	description: str
+	amount: float
 
-	prev_water = flatten_meters(prev_meter.get("water", []))
-	prev_elec = flatten_meters(prev_meter.get("electric", []))
-	curr_water = flatten_meters(curr_meter.get("water", []))
-	curr_elec = flatten_meters(curr_meter.get("electric", []))
+	def __post_init__(self):
+		object.__setattr__(self, "amount", float(self.amount))
 
-	default_water_rate = info.get("water_rate", 0)
-	default_electric_rate = info.get("electric_rate", 0)
-	room_water_rates = info.get("room_water_rates", {})
-	room_electric_rates = info.get("room_electric_rates", {})
-	rooms_config = info.get("rooms_config", {})
 
-	total_room_price = 0.0
-	total_water_usage = 0.0
-	total_water_amount = 0.0
-	total_electric_usage = 0.0
-	total_electric_amount = 0.0
-	total_maintenance = 0.0
-	total_internet = 0.0
-	total_car_park = 0.0
-	total_back_side = 0.0
-	set_totals = {
-		"/1": {
-			"room_count": 0,
-			"room_price": 0.0,
-			"water_usage": 0.0,
-			"water_amount": 0.0,
-			"electric_usage": 0.0,
-			"electric_amount": 0.0,
-			"other": 0.0,
-			"total": 0.0,
-		},
-		"/2": {
-			"room_count": 0,
-			"room_price": 0.0,
-			"water_usage": 0.0,
-			"water_amount": 0.0,
-			"electric_usage": 0.0,
-			"electric_amount": 0.0,
-			"other": 0.0,
-			"total": 0.0,
-		},
-	}
+@dataclass
+class RoomBill:
+	unit_number: str
+	charges: list[Charge] = field(default_factory=list)
 
-	negative_water_rooms = []
-	negative_electric_rooms = []
-	top_water_usage = []
-	top_electric_usage = []
+	@property
+	def total(self):
+		return sum(charge.amount for charge in self.charges)
 
-	for unit_number, config in rooms_config.items():
-		room_set = f"/{unit_number.split('/')[-1]}" if "/" in unit_number else "other"
-		p_water = prev_water.get(unit_number, 0)
-		c_water = curr_water.get(unit_number, 0)
-		p_elec = prev_elec.get(unit_number, 0)
-		c_elec = curr_elec.get(unit_number, 0)
-
-		raw_water_usage = c_water - p_water
-		raw_electric_usage = c_elec - p_elec
-		water_usage = max(0, raw_water_usage)
-		electric_usage = max(0, raw_electric_usage)
-
-		water_rate = get_room_rate(
-			config,
-			room_water_rates,
-			unit_number,
-			"water_rate",
-			default_water_rate,
-		)
-		electric_rate = get_room_rate(
-			config,
-			room_electric_rates,
-			unit_number,
-			"electric_rate",
-			default_electric_rate,
+	def total_for(self, description_prefix):
+		return sum(
+			charge.amount
+			for charge in self.charges
+			if charge.description.startswith(description_prefix)
 		)
 
-		water_amount = water_usage * water_rate
-		electric_amount = electric_usage * electric_rate
-
-		room_price = float(config.get("room_price", 0.0))
-		maintenance_fee = float(config.get("maintenance_fee", 0.0))
-		internet_rate = float(config.get("internet_rate", 0.0))
-		car_park_rate = float(config.get("car_park_rate", 0.0))
-		back_side_rate = float(config.get("back_side_rate", 0.0))
-
-		total_room_price += room_price
-		total_water_usage += water_usage
-		total_water_amount += water_amount
-		total_electric_usage += electric_usage
-		total_electric_amount += electric_amount
-		total_maintenance += maintenance_fee
-		total_internet += internet_rate
-		total_car_park += car_park_rate
-		total_back_side += back_side_rate
-
-		if room_set in set_totals:
-			set_totals[room_set]["room_count"] += 1
-			set_totals[room_set]["room_price"] += room_price
-			set_totals[room_set]["water_usage"] += water_usage
-			set_totals[room_set]["water_amount"] += water_amount
-			set_totals[room_set]["electric_usage"] += electric_usage
-			set_totals[room_set]["electric_amount"] += electric_amount
-			set_totals[room_set]["other"] += maintenance_fee + internet_rate + car_park_rate + back_side_rate
-
-		if raw_water_usage < 0:
-			negative_water_rooms.append((unit_number, p_water, c_water, raw_water_usage))
-		if raw_electric_usage < 0:
-			negative_electric_rooms.append((unit_number, p_elec, c_elec, raw_electric_usage))
-
-		top_water_usage.append((unit_number, water_usage))
-		top_electric_usage.append((unit_number, electric_usage))
-
-	top_water_usage.sort(key=lambda x: x[1], reverse=True)
-	top_electric_usage.sort(key=lambda x: x[1], reverse=True)
-
-	total_other = total_maintenance + total_internet + total_car_park + total_back_side
-	grand_total = total_room_price + total_water_amount + total_electric_amount + total_other
-	room_count = len(rooms_config)
-	avg_per_room = grand_total / room_count if room_count else 0.0
-
-	for room_set, totals in set_totals.items():
-		totals["total"] = (
-			totals["room_price"]
-			+ totals["water_amount"]
-			+ totals["electric_amount"]
-			+ totals["other"]
+	def usage_for(self, description_prefix):
+		return sum(
+			float(match.group(1))
+			for charge in self.charges
+			if charge.description.startswith(description_prefix)
+			for match in [USAGE_PATTERN.search(charge.description)]
+			if match
 		)
 
-	return {
-		"apartment_name": info.get("apartment_name", ""),
-		"billing_month": info.get("billing_month", ""),
-		"bill_date": info.get("bill_date", ""),
-		"room_count": room_count,
-		"total_room_price": total_room_price,
-		"total_water_usage": total_water_usage,
-		"total_water_amount": total_water_amount,
-		"total_electric_usage": total_electric_usage,
-		"total_electric_amount": total_electric_amount,
-		"total_maintenance": total_maintenance,
-		"total_internet": total_internet,
-		"total_car_park": total_car_park,
-		"total_back_side": total_back_side,
-		"total_other": total_other,
-		"grand_total": grand_total,
-		"avg_per_room": avg_per_room,
-		"negative_water_rooms": negative_water_rooms,
-		"negative_electric_rooms": negative_electric_rooms,
-		"top_water_usage": top_water_usage[:5],
-		"top_electric_usage": top_electric_usage[:5],
-		"set_totals": set_totals,
-	}
+
+@dataclass
+class ApartmentBill:
+	period: str
+	source: Path
+	water_rate: float = 0.0
+	electric_rate: float = 0.0
+	rooms: list[RoomBill] = field(default_factory=list)
+
+	@property
+	def grand_total(self):
+		return sum(room.total for room in self.rooms)
+
+	def total_for(self, description_prefix):
+		return sum(room.total_for(description_prefix) for room in self.rooms)
+
+	def usage_for(self, description_prefix):
+		return sum(room.usage_for(description_prefix) for room in self.rooms)
+
+	def by_building(self, building):
+		return [room for room in self.rooms if room.unit_number.rsplit("/", 1)[-1] == building]
+
+	def suspicious_rooms(self, rooms):
+		return [
+			room for room in rooms
+			if room.unit_number not in EXCLUDED_UNITS
+			and (room.total > SUSPICIOUS_ROOM_TOTAL or room.total < 0)
+		]
 
 
-def print_summary(summary):
-	print("=" * 70)
-	print(f"Apartment : {summary['apartment_name']}")
-	print(f"Month     : {summary['billing_month']}")
-	print(f"Bill date : {summary['bill_date']}")
-	print(f"Rooms     : {summary['room_count']}")
-	print("=" * 70)
-	print("SUMMARY TOTALS")
-	print(f"- Room price total         : {money(summary['total_room_price'])} THB")
-	print(f"- Water usage total        : {summary['total_water_usage']:,.0f} units")
-	print(f"- Water charge total       : {money(summary['total_water_amount'])} THB")
-	print(f"- Electric usage total     : {summary['total_electric_usage']:,.0f} units")
-	print(f"- Electric charge total    : {money(summary['total_electric_amount'])} THB")
-	print(f"- Other charges total      : {money(summary['total_other'])} THB")
-	print(f"  - Maintenance            : {money(summary['total_maintenance'])} THB")
-	print(f"  - Internet               : {money(summary['total_internet'])} THB")
-	print(f"  - Car park               : {money(summary['total_car_park'])} THB")
-	print(f"  - Back side              : {money(summary['total_back_side'])} THB")
-	print("-" * 70)
-	print(f"TOTAL BILL AMOUNT          : {money(summary['grand_total'])} THB")
-	print(f"Average per room           : {money(summary['avg_per_room'])} THB")
-	print("=" * 70)
+def load_json(path):
+	with path.open("r", encoding="utf-8") as file:
+		return json.load(file)
 
-	print("ROOM SET BREAKDOWN")
-	for room_set in ("/1", "/2"):
-		totals = summary["set_totals"].get(room_set, {})
-		print(f"SET {room_set}")
-		print(f"- Rooms                   : {totals.get('room_count', 0)}")
-		print(f"- Room price total        : {money(totals.get('room_price', 0.0))} THB")
-		print(f"- Water usage total       : {totals.get('water_usage', 0):,.0f} units")
-		print(f"- Water charge total      : {money(totals.get('water_amount', 0.0))} THB")
-		print(f"- Electric usage total    : {totals.get('electric_usage', 0):,.0f} units")
-		print(f"- Electric charge total   : {money(totals.get('electric_amount', 0.0))} THB")
-		print(f"- Other charges total     : {money(totals.get('other', 0.0))} THB")
-		print(f"- Total                   : {money(totals.get('total', 0.0))} THB")
-		print("-" * 70)
 
-	print("TOP 5 WATER USAGE ROOMS")
-	for unit, usage in summary["top_water_usage"]:
-		print(f"- {unit:>6} : {usage:,.0f} units")
+def load_bill(path):
+	data = load_json(path)
+	info_path = path.parent / "basic_info.json"
+	info = load_json(info_path) if info_path.exists() else {}
+	rooms = [
+		RoomBill(
+			unit_number=room.get("unit_number", ""),
+			charges=[
+				Charge(
+					description=charge.get("description", ""),
+					amount=charge.get("amount", 0),
+				)
+				for charge in room.get("charges", [])
+			],
+		)
+		for room in data.get("rooms", [])
+	]
+	return ApartmentBill(
+		period=info.get("billing_month", path.parent.name),
+		source=path,
+		water_rate=float(info.get("water_rate", 0)),
+		electric_rate=float(info.get("electric_rate", 0)),
+		rooms=rooms,
+	)
 
-	print("\nTOP 5 ELECTRIC USAGE ROOMS")
-	for unit, usage in summary["top_electric_usage"]:
-		print(f"- {unit:>6} : {usage:,.0f} units")
 
-	print("\nCHECK METER ANOMALIES (BILLED AS 0 WHEN NEGATIVE)")
-	if summary["negative_water_rooms"]:
-		print("- Negative water usage rooms:")
-		for unit, prev_val, curr_val, usage in summary["negative_water_rooms"]:
-			print(f"  {unit}: {curr_val} - {prev_val} = {usage}")
-	else:
-		print("- No negative water usage")
+def load_all_bills(archive_dir=ARCHIVE_DIR):
+	return [
+		load_bill(path)
+		for path in sorted(archive_dir.glob("*/final_apartment_bills.json"))
+	]
 
-	if summary["negative_electric_rooms"]:
-		print("- Negative electric usage rooms:")
-		for unit, prev_val, curr_val, usage in summary["negative_electric_rooms"]:
-			print(f"  {unit}: {curr_val} - {prev_val} = {usage}")
-	else:
-		print("- No negative electric usage")
+
+def build_summary_rows(bills):
+	rows = []
+	for bill in bills:
+		for building in sorted({room.unit_number.rsplit("/", 1)[-1] for room in bill.rooms}):
+			all_rooms = bill.by_building(building)
+			suspicious = bill.suspicious_rooms(all_rooms)
+			rooms = [
+				room for room in all_rooms
+				if room.unit_number not in EXCLUDED_UNITS and room not in suspicious
+			]
+			maintenance = sum(room.total_for("ค่าส่วนกลาง") for room in rooms)
+			internet = sum(room.total_for("ค่าอินเตอร์เน็ต") for room in rooms)
+			car_park = sum(room.total_for("ค่าที่จอดรถ") for room in rooms)
+			back_side = sum(room.total_for("ด้านหลัง") for room in rooms)
+			water_amount = sum(room.total_for("ค่าน้ำ") for room in rooms)
+			electric_amount = sum(room.total_for("ค่าไฟฟ้า") for room in rooms)
+			other = maintenance + internet + car_park + back_side
+			grand_total = (
+				sum(room.total_for("ค่าเช่าห้อง") for room in rooms)
+				+ water_amount
+				+ electric_amount
+				+ other
+			)
+			rows.append({
+				"งวด": bill.period,
+				"ตึก": building,
+				"จำนวนห้อง": len(rooms),
+				"อัตราค่าน้ำ": bill.water_rate,
+				"อัตราค่าไฟ": bill.electric_rate,
+				"หน่วยน้ำ": sum(room.usage_for("ค่าน้ำ") for room in rooms),
+				"ค่าน้ำ (บาท)": water_amount,
+				"หน่วยไฟ": sum(room.usage_for("ค่าไฟฟ้า") for room in rooms),
+				"ค่าไฟ (บาท)": electric_amount,
+				"ค่าเช่า (บาท)": sum(room.total_for("ค่าเช่าห้อง") for room in rooms),
+				"ค่าส่วนกลาง (บาท)": maintenance,
+				"ค่าอินเทอร์เน็ต (บาท)": internet,
+				"ค่าที่จอดรถ (บาท)": car_park,
+				"ค่าด้านหลัง (บาท)": back_side,
+				"ค่าใช้จ่ายอื่น (บาท)": other,
+				"ยอดรวม (บาท)": grand_total,
+				"เฉลี่ยต่อห้อง (บาท)": grand_total / len(rooms) if rooms else 0,
+				"ห้องต้องตรวจสอบ": "; ".join(
+					f"{room.unit_number} ({room.total:.2f})"
+					for room in suspicious
+				),
+			})
+	return rows
+
+
+def write_summary_csv(rows, output_path=CSV_OUTPUT_PATH):
+	fieldnames = list(rows[0]) if rows else ["งวด", "ตึก", "จำนวนห้อง"]
+	with output_path.open("w", newline="", encoding="utf-8-sig") as file:
+		writer = csv.DictWriter(file, fieldnames=fieldnames)
+		writer.writeheader()
+		writer.writerows(rows)
+	return output_path
 
 
 if __name__ == "__main__":
-	report = build_summary()
-	print_summary(report)
+	bills = load_all_bills()
+	output_path = write_summary_csv(build_summary_rows(bills))
+	print(f"สร้างไฟล์สรุปจาก class แล้ว: {output_path}")
