@@ -6,21 +6,21 @@
     "rooms": [
         {
             "unit_number": "101/1",
-            "invoice_id": "INV256908000001",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000001",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 101/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 101/1 เดือน 09/2569",
                     "amount": 2500.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (361-354=7)",
-                    "amount": 105.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (367-361=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9126-8698=428)",
-                    "amount": 3210.0
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9518-9126=392)",
+                    "amount": 2940.0
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -30,20 +30,20 @@
         },
         {
             "unit_number": "102/1",
-            "invoice_id": "INV256908000002",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000002",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 102/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 102/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2060-2047=13)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (2073-2060=13)",
                     "amount": 195.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4571-4510=61)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4632-4571=61)",
                     "amount": 305
                 },
                 {
@@ -54,21 +54,21 @@
         },
         {
             "unit_number": "103/1",
-            "invoice_id": "INV256908000003",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000003",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 103/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 103/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1883-1875=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1889-1883=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3011-2965=46)",
-                    "amount": 230
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3052-3011=41)",
+                    "amount": 205
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -78,21 +78,21 @@
         },
         {
             "unit_number": "104/1",
-            "invoice_id": "INV256908000004",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000004",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 104/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 104/1 เดือน 09/2569",
                     "amount": 2600.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (777-765=12)",
-                    "amount": 180.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (780-777=3)",
+                    "amount": 45.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9319-9198=121)",
-                    "amount": 605
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9356-9319=37)",
+                    "amount": 185
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -102,21 +102,21 @@
         },
         {
             "unit_number": "105/1",
-            "invoice_id": "INV256908000005",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000005",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 105/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 105/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (307-299=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (316-307=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4274-4213=61)",
-                    "amount": 305
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4334-4274=60)",
+                    "amount": 300
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -130,21 +130,21 @@
         },
         {
             "unit_number": "106/1",
-            "invoice_id": "INV256908000006",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000006",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 106/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 106/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (38-34=4)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (42-38=4)",
                     "amount": 60.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7033-6985=48)",
-                    "amount": 240
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7085-7033=52)",
+                    "amount": 260
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -158,21 +158,21 @@
         },
         {
             "unit_number": "107/1",
-            "invoice_id": "INV256908000007",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000007",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 107/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 107/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (395-387=8)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (403-395=8)",
                     "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1876-1815=61)",
-                    "amount": 305
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1942-1876=66)",
+                    "amount": 330
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -186,21 +186,21 @@
         },
         {
             "unit_number": "108/1",
-            "invoice_id": "INV256908000008",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000008",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 108/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 108/1 เดือน 09/2569",
                     "amount": 3500.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2925-2902=23)",
-                    "amount": 345.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2944-2925=19)",
+                    "amount": 285.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1897-1581=316)",
-                    "amount": 1580
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2178-1897=281)",
+                    "amount": 1405
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -208,27 +208,27 @@
                 },
                 {
                     "description": "ค่าที่จอดรถ (Car park rate)",
-                    "amount": 400.0
+                    "amount": 800.0
                 }
             ]
         },
         {
             "unit_number": "109/1",
-            "invoice_id": "INV256908000009",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000009",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 109/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 109/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (0-0=0)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (0-0=0)",
                     "amount": 0.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (5405-0=5405)",
-                    "amount": 27025
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (0-5405=4595)",
+                    "amount": 22975
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -238,21 +238,21 @@
         },
         {
             "unit_number": "110/1",
-            "invoice_id": "INV256908000010",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000010",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 110/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 110/1 เดือน 09/2569",
                     "amount": 2400.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (144-128=16)",
-                    "amount": 240.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (156-144=12)",
+                    "amount": 180.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3582-3521=61)",
-                    "amount": 305
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3639-3582=57)",
+                    "amount": 285
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -262,21 +262,21 @@
         },
         {
             "unit_number": "111/1",
-            "invoice_id": "INV256908000011",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000011",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 111/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 111/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (59-59=0)",
-                    "amount": 0.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (9-0=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4834-4779=55)",
-                    "amount": 275
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4893-4834=59)",
+                    "amount": 295
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -286,21 +286,21 @@
         },
         {
             "unit_number": "112/1",
-            "invoice_id": "INV256908000012",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000012",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 112/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 112/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (3212-3197=15)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (3227-3212=15)",
                     "amount": 225.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6742-6688=54)",
-                    "amount": 270
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6791-6742=49)",
+                    "amount": 245
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -310,21 +310,21 @@
         },
         {
             "unit_number": "113/1",
-            "invoice_id": "INV256908000013",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000013",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 113/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 113/1 เดือน 09/2569",
                     "amount": 2400.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (781-777=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (788-781=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (5736-5688=48)",
-                    "amount": 240
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (5795-5736=59)",
+                    "amount": 295
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -334,21 +334,21 @@
         },
         {
             "unit_number": "114/1",
-            "invoice_id": "INV256908000014",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000014",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 114/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 114/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (347-338=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (355-347=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (394-338=56)",
-                    "amount": 280
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (440-394=46)",
+                    "amount": 230
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -358,21 +358,21 @@
         },
         {
             "unit_number": "115/1",
-            "invoice_id": "INV256908000015",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000015",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 115/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 115/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (657-642=15)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (672-657=15)",
                     "amount": 225.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (499-407=92)",
-                    "amount": 460
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (555-499=56)",
+                    "amount": 280
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -382,21 +382,21 @@
         },
         {
             "unit_number": "201/1",
-            "invoice_id": "INV256908000016",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000016",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 201/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 201/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (542-533=9)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (551-542=9)",
                     "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6846-6733=113)",
-                    "amount": 565
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6923-6846=77)",
+                    "amount": 385
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -414,21 +414,21 @@
         },
         {
             "unit_number": "202/1",
-            "invoice_id": "INV256908000017",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000017",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 202/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 202/1 เดือน 09/2569",
                     "amount": 1900.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2206-2195=11)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (2217-2206=11)",
                     "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1398-1321=77)",
-                    "amount": 385
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1479-1398=81)",
+                    "amount": 405
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -438,21 +438,21 @@
         },
         {
             "unit_number": "203/1",
-            "invoice_id": "INV256908000018",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000018",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 203/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 203/1 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (293-282=11)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (304-293=11)",
                     "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8048-7989=59)",
-                    "amount": 295
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8094-8048=46)",
+                    "amount": 230
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -462,21 +462,21 @@
         },
         {
             "unit_number": "204/1",
-            "invoice_id": "INV256908000019",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000019",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 204/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 204/1 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (418-411=7)",
-                    "amount": 105.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (424-418=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6794-6698=96)",
-                    "amount": 480
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6870-6794=76)",
+                    "amount": 380
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -486,21 +486,21 @@
         },
         {
             "unit_number": "205/1",
-            "invoice_id": "INV256908000020",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000020",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 205/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 205/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (920-906=14)",
-                    "amount": 210.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (933-920=13)",
+                    "amount": 195.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9747-9700=47)",
-                    "amount": 235
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9787-9747=40)",
+                    "amount": 200
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -510,21 +510,21 @@
         },
         {
             "unit_number": "206/1",
-            "invoice_id": "INV256908000021",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000021",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 206/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 206/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (857-844=13)",
-                    "amount": 195.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (868-857=11)",
+                    "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2064-1982=82)",
-                    "amount": 410
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2145-2064=81)",
+                    "amount": 405
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -538,21 +538,21 @@
         },
         {
             "unit_number": "207/1",
-            "invoice_id": "INV256908000022",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000022",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 207/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 207/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1569-1561=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1576-1569=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9079-9032=47)",
-                    "amount": 235
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9119-9079=40)",
+                    "amount": 200
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -566,21 +566,21 @@
         },
         {
             "unit_number": "208/1",
-            "invoice_id": "INV256908000023",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000023",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 208/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 208/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (111-72=39)",
-                    "amount": 585.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (149-111=38)",
+                    "amount": 570.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2755-2696=59)",
-                    "amount": 295
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2819-2755=64)",
+                    "amount": 320
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -590,21 +590,21 @@
         },
         {
             "unit_number": "209/1",
-            "invoice_id": "INV256908000024",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000024",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 209/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 209/1 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (700-691=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (706-700=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9792-9739=53)",
-                    "amount": 265
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9861-9792=69)",
+                    "amount": 345
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -614,20 +614,20 @@
         },
         {
             "unit_number": "210/1",
-            "invoice_id": "INV256908000025",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000025",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 210/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 210/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (342-332=10)",
-                    "amount": 150.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (351-342=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6085-6018=67)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6152-6085=67)",
                     "amount": 335
                 },
                 {
@@ -638,21 +638,21 @@
         },
         {
             "unit_number": "211/1",
-            "invoice_id": "INV256908000026",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000026",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 211/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 211/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1831-1827=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1837-1831=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1289-1235=54)",
-                    "amount": 270
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1350-1289=61)",
+                    "amount": 305
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -662,21 +662,21 @@
         },
         {
             "unit_number": "212/1",
-            "invoice_id": "INV256908000027",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000027",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 212/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 212/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1723-1721=2)",
-                    "amount": 30.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1726-1723=3)",
+                    "amount": 45.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2199-2151=48)",
-                    "amount": 240
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2248-2199=49)",
+                    "amount": 245
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -686,21 +686,21 @@
         },
         {
             "unit_number": "213/1",
-            "invoice_id": "INV256908000028",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000028",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 213/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 213/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1354-1344=10)",
-                    "amount": 150.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1360-1354=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8399-8347=52)",
-                    "amount": 260
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8450-8399=51)",
+                    "amount": 255
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -710,21 +710,21 @@
         },
         {
             "unit_number": "214/1",
-            "invoice_id": "INV256908000029",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000029",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 214/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 214/1 เดือน 09/2569",
                     "amount": 1900.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1913-1905=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1918-1913=5)",
+                    "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3855-3774=81)",
-                    "amount": 405
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3926-3855=71)",
+                    "amount": 355
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -734,21 +734,21 @@
         },
         {
             "unit_number": "215/1",
-            "invoice_id": "INV256908000030",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000030",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 215/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 215/1 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (163-158=5)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (168-163=5)",
                     "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4435-4377=58)",
-                    "amount": 290
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4487-4435=52)",
+                    "amount": 260
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -758,20 +758,20 @@
         },
         {
             "unit_number": "301/1",
-            "invoice_id": "INV256908000031",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000031",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 301/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 301/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2672-2659=13)",
-                    "amount": 195.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2684-2672=12)",
+                    "amount": 180.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7747-7717=30)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7777-7747=30)",
                     "amount": 150
                 },
                 {
@@ -782,21 +782,21 @@
         },
         {
             "unit_number": "302/1",
-            "invoice_id": "INV256908000032",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000032",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 302/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 302/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2320-2316=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2325-2320=5)",
+                    "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9889-9826=63)",
-                    "amount": 315
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9967-9889=78)",
+                    "amount": 390
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -806,21 +806,21 @@
         },
         {
             "unit_number": "303/1",
-            "invoice_id": "INV256908000033",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000033",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 303/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 303/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (85-75=10)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (95-85=10)",
                     "amount": 150.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8746-8698=48)",
-                    "amount": 240
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8851-8746=105)",
+                    "amount": 525
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -830,21 +830,21 @@
         },
         {
             "unit_number": "304/1",
-            "invoice_id": "INV256908000034",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000034",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 304/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 304/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (823-806=17)",
-                    "amount": 255.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (839-823=16)",
+                    "amount": 240.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6799-6644=155)",
-                    "amount": 775
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6918-6799=119)",
+                    "amount": 595
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -854,20 +854,20 @@
         },
         {
             "unit_number": "305/1",
-            "invoice_id": "INV256908000035",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000035",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 305/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 305/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2339-2329=10)",
-                    "amount": 150.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2345-2339=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (485-456=29)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (514-485=29)",
                     "amount": 145
                 },
                 {
@@ -878,20 +878,20 @@
         },
         {
             "unit_number": "306/1",
-            "invoice_id": "INV256908000036",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000036",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 306/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 306/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (460-453=7)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (467-460=7)",
                     "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1911-1875=36)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1947-1911=36)",
                     "amount": 180
                 },
                 {
@@ -902,21 +902,21 @@
         },
         {
             "unit_number": "307/1",
-            "invoice_id": "INV256908000037",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000037",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 307/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 307/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2970-2961=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2978-2970=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2061-2029=32)",
-                    "amount": 160
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2097-2061=36)",
+                    "amount": 180
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -926,21 +926,21 @@
         },
         {
             "unit_number": "308/1",
-            "invoice_id": "INV256908000038",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000038",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 308/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 308/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (641-627=14)",
-                    "amount": 210.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (652-641=11)",
+                    "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2649-2606=43)",
-                    "amount": 215
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2734-2649=85)",
+                    "amount": 425
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -950,21 +950,21 @@
         },
         {
             "unit_number": "309/1",
-            "invoice_id": "INV256908000039",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000039",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 309/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 309/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (445-428=17)",
-                    "amount": 255.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (461-445=16)",
+                    "amount": 240.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3012-2989=23)",
-                    "amount": 115
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3148-3012=136)",
+                    "amount": 680
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -974,20 +974,20 @@
         },
         {
             "unit_number": "310/1",
-            "invoice_id": "INV256908000040",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000040",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 310/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 310/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1804-1797=7)",
-                    "amount": 105.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1808-1804=4)",
+                    "amount": 60.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2702-2673=29)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2731-2702=29)",
                     "amount": 145
                 },
                 {
@@ -998,21 +998,21 @@
         },
         {
             "unit_number": "311/1",
-            "invoice_id": "INV256908000041",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000041",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 311/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 311/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2370-2356=14)",
-                    "amount": 210.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2383-2370=13)",
+                    "amount": 195.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7705-7606=99)",
-                    "amount": 495
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7791-7705=86)",
+                    "amount": 430
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1022,21 +1022,21 @@
         },
         {
             "unit_number": "312/1",
-            "invoice_id": "INV256908000042",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000042",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 312/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 312/1 เดือน 09/2569",
                     "amount": 1800.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (196-187=9)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (205-196=9)",
                     "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (5705-5630=75)",
-                    "amount": 375
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (5779-5705=74)",
+                    "amount": 370
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1046,21 +1046,21 @@
         },
         {
             "unit_number": "313/1",
-            "invoice_id": "INV256908000043",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000043",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 313/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 313/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (669-650=19)",
-                    "amount": 285.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (686-669=17)",
+                    "amount": 255.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1680-1601=79)",
-                    "amount": 395
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1751-1680=71)",
+                    "amount": 355
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1074,21 +1074,21 @@
         },
         {
             "unit_number": "314/1",
-            "invoice_id": "INV256908000044",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000044",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 314/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 314/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (73-70=3)",
-                    "amount": 45.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (74-73=1)",
+                    "amount": 15.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (319-294=25)",
-                    "amount": 125
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (341-319=22)",
+                    "amount": 110
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1098,21 +1098,21 @@
         },
         {
             "unit_number": "315/1",
-            "invoice_id": "INV256908000045",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000045",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 315/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 315/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1003-978=25)",
-                    "amount": 375.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1032-1003=29)",
+                    "amount": 435.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (698-557=141)",
-                    "amount": 705
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (856-698=158)",
+                    "amount": 790
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1126,21 +1126,21 @@
         },
         {
             "unit_number": "401/1",
-            "invoice_id": "INV256908000046",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000046",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 401/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 401/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2056-2051=5)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (2061-2056=5)",
                     "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8429-8378=51)",
-                    "amount": 255
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8479-8429=50)",
+                    "amount": 250
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1150,21 +1150,21 @@
         },
         {
             "unit_number": "402/1",
-            "invoice_id": "INV256908000047",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000047",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 402/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 402/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2076-2060=16)",
-                    "amount": 240.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2093-2076=17)",
+                    "amount": 255.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1429-1336=93)",
-                    "amount": 465
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1505-1429=76)",
+                    "amount": 380
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1174,21 +1174,21 @@
         },
         {
             "unit_number": "403/1",
-            "invoice_id": "INV256908000048",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000048",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 403/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 403/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1819-1811=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1826-1819=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4217-4156=61)",
-                    "amount": 305
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4280-4217=63)",
+                    "amount": 315
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1198,21 +1198,21 @@
         },
         {
             "unit_number": "404/1",
-            "invoice_id": "INV256908000049",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000049",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 404/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 404/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (185-175=10)",
-                    "amount": 150.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (193-185=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9672-9550=122)",
-                    "amount": 610
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9785-9672=113)",
+                    "amount": 565
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1222,21 +1222,21 @@
         },
         {
             "unit_number": "405/1",
-            "invoice_id": "INV256908000050",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000050",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 405/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 405/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (114-107=7)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (121-114=7)",
                     "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3534-3435=99)",
-                    "amount": 495
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3643-3534=109)",
+                    "amount": 545
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1246,21 +1246,21 @@
         },
         {
             "unit_number": "406/1",
-            "invoice_id": "INV256908000051",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000051",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 406/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 406/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (166-147=19)",
-                    "amount": 285.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (184-166=18)",
+                    "amount": 270.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2691-2621=70)",
-                    "amount": 350
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2752-2691=61)",
+                    "amount": 305
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1270,21 +1270,21 @@
         },
         {
             "unit_number": "407/1",
-            "invoice_id": "INV256908000052",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000052",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 407/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 407/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1627-1612=15)",
-                    "amount": 225.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1641-1627=14)",
+                    "amount": 210.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1744-1648=96)",
-                    "amount": 480
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1832-1744=88)",
+                    "amount": 440
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1294,20 +1294,20 @@
         },
         {
             "unit_number": "408/1",
-            "invoice_id": "INV256908000053",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000053",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 408/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 408/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (515-515=0)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (515-515=0)",
                     "amount": 0.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7275-7275=0)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7275-7275=0)",
                     "amount": 0
                 },
                 {
@@ -1318,21 +1318,21 @@
         },
         {
             "unit_number": "409/1",
-            "invoice_id": "INV256908000054",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000054",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 409/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 409/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (38-38=0)",
-                    "amount": 0.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (10-0=10)",
+                    "amount": 150.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4628-4593=35)",
-                    "amount": 175
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4662-4628=34)",
+                    "amount": 170
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1342,21 +1342,21 @@
         },
         {
             "unit_number": "410/1",
-            "invoice_id": "INV256908000055",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000055",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 410/1 เดือน 08/2569",
-                    "amount": 2000.0
+                    "description": "ค่าเช่าห้อง (Room rate) 410/1 เดือน 09/2569",
+                    "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2320-2311=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2328-2320=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2475-2421=54)",
-                    "amount": 270
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2534-2475=59)",
+                    "amount": 295
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1366,21 +1366,21 @@
         },
         {
             "unit_number": "411/1",
-            "invoice_id": "INV256908000056",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000056",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 411/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 411/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2103-2092=11)",
-                    "amount": 165.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2106-2103=3)",
+                    "amount": 45.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7064-6955=109)",
-                    "amount": 545
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7158-7064=94)",
+                    "amount": 470
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1390,21 +1390,21 @@
         },
         {
             "unit_number": "412/1",
-            "invoice_id": "INV256908000057",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000057",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 412/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 412/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (398-382=16)",
-                    "amount": 240.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (413-398=15)",
+                    "amount": 225.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2577-2475=102)",
-                    "amount": 510
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2675-2577=98)",
+                    "amount": 490
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1414,21 +1414,21 @@
         },
         {
             "unit_number": "413/1",
-            "invoice_id": "INV256908000058",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000058",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 413/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 413/1 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (387-383=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (392-387=5)",
+                    "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6481-6441=40)",
-                    "amount": 200
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6532-6481=51)",
+                    "amount": 255
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1438,21 +1438,21 @@
         },
         {
             "unit_number": "414/1",
-            "invoice_id": "INV256908000059",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000059",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 414/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 414/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2527-2508=19)",
-                    "amount": 285.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2541-2527=14)",
+                    "amount": 210.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6736-6586=150)",
-                    "amount": 750
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6861-6736=125)",
+                    "amount": 625
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1462,21 +1462,21 @@
         },
         {
             "unit_number": "415/1",
-            "invoice_id": "INV256908000060",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000060",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 415/1 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 415/1 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2289-2279=10)",
-                    "amount": 150.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2297-2289=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (926-817=109)",
-                    "amount": 545
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1048-926=122)",
+                    "amount": 610
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1486,21 +1486,21 @@
         },
         {
             "unit_number": "101/2",
-            "invoice_id": "INV256908000061",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000061",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 101/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 101/2 เดือน 09/2569",
                     "amount": 2500.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (572-547=25)",
-                    "amount": 375.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (593-572=21)",
+                    "amount": 315.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6773-6669=104)",
-                    "amount": 520
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6857-6773=84)",
+                    "amount": 420
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1510,21 +1510,21 @@
         },
         {
             "unit_number": "102/2",
-            "invoice_id": "INV256908000062",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000062",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 102/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 102/2 เดือน 09/2569",
                     "amount": 2400.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (596-585=11)",
-                    "amount": 165.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (610-596=14)",
+                    "amount": 210.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (117-67=50)",
-                    "amount": 250
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (168-117=51)",
+                    "amount": 255
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1534,21 +1534,21 @@
         },
         {
             "unit_number": "103/2",
-            "invoice_id": "INV256908000063",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000063",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 103/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 103/2 เดือน 09/2569",
                     "amount": 2400.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (644-635=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (654-644=10)",
+                    "amount": 150.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1301-1241=60)",
-                    "amount": 300
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1353-1301=52)",
+                    "amount": 260
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1558,21 +1558,21 @@
         },
         {
             "unit_number": "104/2",
-            "invoice_id": "INV256908000064",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000064",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 104/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 104/2 เดือน 09/2569",
                     "amount": 2400.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (720-711=9)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (729-720=9)",
                     "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (641-588=53)",
-                    "amount": 265
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (688-641=47)",
+                    "amount": 235
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1582,21 +1582,21 @@
         },
         {
             "unit_number": "105/2",
-            "invoice_id": "INV256908000065",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000065",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 105/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 105/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (798-794=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (803-798=5)",
+                    "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9505-9467=38)",
-                    "amount": 190
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9548-9505=43)",
+                    "amount": 215
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1610,21 +1610,21 @@
         },
         {
             "unit_number": "106/2",
-            "invoice_id": "INV256908000066",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000066",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 106/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 106/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1999-1986=13)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (2012-1999=13)",
                     "amount": 195.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8238-8192=46)",
-                    "amount": 230
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8282-8238=44)",
+                    "amount": 220
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1638,21 +1638,21 @@
         },
         {
             "unit_number": "107/2",
-            "invoice_id": "INV256908000067",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000067",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 107/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 107/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (347-337=10)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (357-347=10)",
                     "amount": 150.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2746-2635=111)",
-                    "amount": 555
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2866-2746=120)",
+                    "amount": 600
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1662,21 +1662,21 @@
         },
         {
             "unit_number": "108/2",
-            "invoice_id": "INV256908000068",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000068",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 108/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 108/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (848-825=23)",
-                    "amount": 345.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (875-848=27)",
+                    "amount": 405.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4969-4814=155)",
-                    "amount": 775
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (5143-4969=174)",
+                    "amount": 870
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1686,21 +1686,21 @@
         },
         {
             "unit_number": "109/2",
-            "invoice_id": "INV256908000069",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000069",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 109/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 109/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (912-892=20)",
-                    "amount": 300.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (934-912=22)",
+                    "amount": 330.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (859-727=132)",
-                    "amount": 660
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1021-859=162)",
+                    "amount": 810
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1710,20 +1710,20 @@
         },
         {
             "unit_number": "110/2",
-            "invoice_id": "INV256908000070",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000070",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 110/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 110/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2201-2181=20)",
-                    "amount": 300.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2222-2201=21)",
+                    "amount": 315.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3783-3658=125)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3908-3783=125)",
                     "amount": 625
                 },
                 {
@@ -1734,21 +1734,21 @@
         },
         {
             "unit_number": "111/2",
-            "invoice_id": "INV256908000071",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000071",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 111/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 111/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (274-262=12)",
-                    "amount": 180.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (288-274=14)",
+                    "amount": 210.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4041-3955=86)",
-                    "amount": 430
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4135-4041=94)",
+                    "amount": 470
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1762,21 +1762,21 @@
         },
         {
             "unit_number": "112/2",
-            "invoice_id": "INV256908000072",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000072",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 112/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 112/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (487-479=8)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (495-487=8)",
                     "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (274-228=46)",
-                    "amount": 230
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (316-274=42)",
+                    "amount": 210
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1786,21 +1786,21 @@
         },
         {
             "unit_number": "113/2",
-            "invoice_id": "INV256908000073",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000073",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 113/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 113/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (353-345=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (362-353=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2703-2627=76)",
-                    "amount": 380
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2777-2703=74)",
+                    "amount": 370
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1814,21 +1814,21 @@
         },
         {
             "unit_number": "114/2",
-            "invoice_id": "INV256908000074",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000074",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 114/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 114/2 เดือน 09/2569",
                     "amount": 2400.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (152-141=11)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (163-152=11)",
                     "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (375-259=116)",
-                    "amount": 580
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (493-375=118)",
+                    "amount": 590
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1842,21 +1842,21 @@
         },
         {
             "unit_number": "115/2",
-            "invoice_id": "INV256908000075",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000075",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 115/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 115/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (664-658=6)",
-                    "amount": 90.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (671-664=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1282-1252=30)",
-                    "amount": 150
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1314-1282=32)",
+                    "amount": 160
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1866,21 +1866,21 @@
         },
         {
             "unit_number": "201/2",
-            "invoice_id": "INV256908000076",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000076",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 201/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 201/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (480-466=14)",
-                    "amount": 210.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (492-480=12)",
+                    "amount": 180.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8895-8783=112)",
-                    "amount": 560
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9000-8895=105)",
+                    "amount": 525
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1894,21 +1894,21 @@
         },
         {
             "unit_number": "202/2",
-            "invoice_id": "INV256908000077",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000077",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 202/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 202/2 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (294-277=17)",
-                    "amount": 255.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (308-294=14)",
+                    "amount": 210.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (5814-5468=346)",
-                    "amount": 1730
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6018-5814=204)",
+                    "amount": 1020
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1922,21 +1922,21 @@
         },
         {
             "unit_number": "203/2",
-            "invoice_id": "INV256908000078",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000078",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 203/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 203/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (95-89=6)",
-                    "amount": 90.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (103-95=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4735-4686=49)",
-                    "amount": 245
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4785-4735=50)",
+                    "amount": 250
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1946,21 +1946,21 @@
         },
         {
             "unit_number": "204/2",
-            "invoice_id": "INV256908000079",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000079",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 204/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 204/2 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (687-675=12)",
-                    "amount": 180.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (696-687=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6684-6626=58)",
-                    "amount": 290
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6743-6684=59)",
+                    "amount": 295
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -1970,20 +1970,20 @@
         },
         {
             "unit_number": "205/2",
-            "invoice_id": "INV256908000080",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000080",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 205/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 205/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (658-646=12)",
-                    "amount": 180.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (671-658=13)",
+                    "amount": 195.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1250-1170=80)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1330-1250=80)",
                     "amount": 400
                 },
                 {
@@ -1994,21 +1994,21 @@
         },
         {
             "unit_number": "206/2",
-            "invoice_id": "INV256908000081",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000081",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 206/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 206/2 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (408-397=11)",
-                    "amount": 165.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (420-408=12)",
+                    "amount": 180.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (164-101=63)",
-                    "amount": 315
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (235-164=71)",
+                    "amount": 355
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2018,21 +2018,21 @@
         },
         {
             "unit_number": "207/2",
-            "invoice_id": "INV256908000082",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000082",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 207/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 207/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (991-989=2)",
-                    "amount": 30.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (994-991=3)",
+                    "amount": 45.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2569-2558=11)",
-                    "amount": 55
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2577-2569=8)",
+                    "amount": 40
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2042,21 +2042,21 @@
         },
         {
             "unit_number": "208/2",
-            "invoice_id": "INV256908000083",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000083",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 208/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 208/2 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (2170-2167=3)",
-                    "amount": 45.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (2178-2170=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7623-7598=25)",
-                    "amount": 125
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7662-7623=39)",
+                    "amount": 195
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2066,20 +2066,20 @@
         },
         {
             "unit_number": "209/2",
-            "invoice_id": "INV256908000084",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000084",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 209/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 209/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (380-373=7)",
-                    "amount": 105.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (389-380=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7539-7468=71)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7610-7539=71)",
                     "amount": 355
                 },
                 {
@@ -2094,21 +2094,21 @@
         },
         {
             "unit_number": "210/2",
-            "invoice_id": "INV256908000085",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000085",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 210/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 210/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (418-414=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (423-418=5)",
+                    "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7733-7673=60)",
-                    "amount": 300
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7792-7733=59)",
+                    "amount": 295
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2122,68 +2122,20 @@
         },
         {
             "unit_number": "211/2",
-            "invoice_id": "INV256908000086",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000086",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 211/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 211/2 เดือน 09/2569",
                     "amount": 2100.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (156-143=13)",
-                    "amount": 195.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (165-156=9)",
+                    "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (559-405=154)",
-                    "amount": 770
-                },
-                {
-                    "description": "ค่าส่วนกลาง (maintenance fee)",
-                    "amount": 350.0
-                }
-            ]
-        },
-        {
-            "unit_number": "212/2",
-            "invoice_id": "INV256908000087",
-            "bill_date": "25/08/2569",
-            "staff_name": "-----",
-            "charges": [
-                {
-                    "description": "ค่าเช่าห้อง (Room rate) 212/2 เดือน 08/2569",
-                    "amount": 2100.0
-                },
-                {
-                    "description": "ค่าน้ำ เดือน 08/2569 (557-551=6)",
-                    "amount": 90.0
-                },
-                {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9501-9472=29)",
-                    "amount": 145
-                },
-                {
-                    "description": "ค่าส่วนกลาง (maintenance fee)",
-                    "amount": 350.0
-                }
-            ]
-        },
-        {
-            "unit_number": "213/2",
-            "invoice_id": "INV256908000088",
-            "bill_date": "25/08/2569",
-            "staff_name": "-----",
-            "charges": [
-                {
-                    "description": "ค่าเช่าห้อง (Room rate) 213/2 เดือน 08/2569",
-                    "amount": 2100.0
-                },
-                {
-                    "description": "ค่าน้ำ เดือน 08/2569 (392-385=7)",
-                    "amount": 105.0
-                },
-                {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9020-8875=145)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (704-559=145)",
                     "amount": 725
                 },
                 {
@@ -2193,22 +2145,70 @@
             ]
         },
         {
-            "unit_number": "214/2",
-            "invoice_id": "INV256908000089",
-            "bill_date": "25/08/2569",
+            "unit_number": "212/2",
+            "invoice_id": "INV256909000087",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 214/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 212/2 เดือน 09/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 09/2569 (564-557=7)",
+                    "amount": 105.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9529-9501=28)",
+                    "amount": 140
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "213/2",
+            "invoice_id": "INV256909000088",
+            "bill_date": "25/09/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 213/2 เดือน 09/2569",
+                    "amount": 2100.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 09/2569 (398-392=6)",
+                    "amount": 90.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9157-9020=137)",
+                    "amount": 685
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "214/2",
+            "invoice_id": "INV256909000089",
+            "bill_date": "25/09/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 214/2 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (127-123=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (132-127=5)",
+                    "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9632-9570=62)",
-                    "amount": 310
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9697-9632=65)",
+                    "amount": 325
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2218,21 +2218,21 @@
         },
         {
             "unit_number": "215/2",
-            "invoice_id": "INV256908000090",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000090",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 215/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 215/2 เดือน 09/2569",
                     "amount": 2300.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (6-1=5)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (11-6=5)",
                     "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (248-228=20)",
-                    "amount": 100
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (270-248=22)",
+                    "amount": 110
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2242,21 +2242,21 @@
         },
         {
             "unit_number": "301/2",
-            "invoice_id": "INV256908000091",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000091",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 301/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 301/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (419-412=7)",
-                    "amount": 105.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (427-419=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6028-5983=45)",
-                    "amount": 225
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6069-6028=41)",
+                    "amount": 205
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2266,21 +2266,21 @@
         },
         {
             "unit_number": "302/2",
-            "invoice_id": "INV256908000092",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000092",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 302/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 302/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1068-1062=6)",
-                    "amount": 90.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1069-1068=1)",
+                    "amount": 15.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2460-2442=18)",
-                    "amount": 90
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2506-2460=46)",
+                    "amount": 230
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2290,21 +2290,21 @@
         },
         {
             "unit_number": "303/2",
-            "invoice_id": "INV256908000093",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000093",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 303/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 303/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (99-98=1)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (100-99=1)",
                     "amount": 15.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8857-8823=34)",
-                    "amount": 170
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8892-8857=35)",
+                    "amount": 175
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2314,21 +2314,21 @@
         },
         {
             "unit_number": "304/2",
-            "invoice_id": "INV256908000094",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000094",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 304/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 304/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (312-303=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (322-312=10)",
+                    "amount": 150.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1356-1251=105)",
-                    "amount": 525
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1466-1356=110)",
+                    "amount": 550
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2338,21 +2338,21 @@
         },
         {
             "unit_number": "305/2",
-            "invoice_id": "INV256908000095",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000095",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 305/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 305/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (461-452=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (469-461=8)",
+                    "amount": 120.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (29-9968=61)",
-                    "amount": 305
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (88-29=59)",
+                    "amount": 295
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2362,21 +2362,21 @@
         },
         {
             "unit_number": "306/2",
-            "invoice_id": "INV256908000096",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000096",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 306/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 306/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (549-531=18)",
-                    "amount": 270.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (566-549=17)",
+                    "amount": 255.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2063-1935=128)",
-                    "amount": 640
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2182-2063=119)",
+                    "amount": 595
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2386,20 +2386,20 @@
         },
         {
             "unit_number": "307/2",
-            "invoice_id": "INV256908000097",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000097",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 307/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 307/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (146-138=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (153-146=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8002-7968=34)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8036-8002=34)",
                     "amount": 170
                 },
                 {
@@ -2410,21 +2410,21 @@
         },
         {
             "unit_number": "308/2",
-            "invoice_id": "INV256908000098",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000098",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 308/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 308/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (322-314=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (326-322=4)",
+                    "amount": 60.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9282-9243=39)",
-                    "amount": 195
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9307-9282=25)",
+                    "amount": 125
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2434,20 +2434,20 @@
         },
         {
             "unit_number": "309/2",
-            "invoice_id": "INV256908000099",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000099",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 309/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 309/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (356-349=7)",
-                    "amount": 105.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (362-356=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (120-29=91)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (211-120=91)",
                     "amount": 455
                 },
                 {
@@ -2458,21 +2458,21 @@
         },
         {
             "unit_number": "310/2",
-            "invoice_id": "INV256908000100",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000100",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 310/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 310/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (435-427=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (442-435=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7263-7198=65)",
-                    "amount": 325
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7329-7263=66)",
+                    "amount": 330
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2482,21 +2482,21 @@
         },
         {
             "unit_number": "311/2",
-            "invoice_id": "INV256908000101",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000101",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 311/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 311/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (195-185=10)",
-                    "amount": 150.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (201-195=6)",
+                    "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3820-3763=57)",
-                    "amount": 285
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3849-3820=29)",
+                    "amount": 145
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2506,21 +2506,21 @@
         },
         {
             "unit_number": "312/2",
-            "invoice_id": "INV256908000102",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000102",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 312/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 312/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1124-1111=13)",
-                    "amount": 195.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (1135-1124=11)",
+                    "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (6356-6302=54)",
-                    "amount": 270
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (6406-6356=50)",
+                    "amount": 250
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2530,21 +2530,21 @@
         },
         {
             "unit_number": "313/2",
-            "invoice_id": "INV256908000103",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000103",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 313/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 313/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (808-793=15)",
-                    "amount": 225.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (824-808=16)",
+                    "amount": 240.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (358-300=58)",
-                    "amount": 290
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (413-358=55)",
+                    "amount": 275
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2554,21 +2554,21 @@
         },
         {
             "unit_number": "314/2",
-            "invoice_id": "INV256908000104",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000104",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 314/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 314/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (389-383=6)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (395-389=6)",
                     "amount": 90.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (4577-4497=80)",
-                    "amount": 400
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4647-4577=70)",
+                    "amount": 350
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2578,21 +2578,21 @@
         },
         {
             "unit_number": "315/2",
-            "invoice_id": "INV256908000105",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000105",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 315/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 315/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (463-449=14)",
-                    "amount": 210.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (475-463=12)",
+                    "amount": 180.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2566-2470=96)",
-                    "amount": 480
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2633-2566=67)",
+                    "amount": 335
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2602,21 +2602,21 @@
         },
         {
             "unit_number": "401/2",
-            "invoice_id": "INV256908000106",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000106",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 401/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 401/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1139-1132=7)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (1146-1139=7)",
                     "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3926-3832=94)",
-                    "amount": 470
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (4010-3926=84)",
+                    "amount": 420
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2626,21 +2626,21 @@
         },
         {
             "unit_number": "402/2",
-            "invoice_id": "INV256908000107",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000107",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 402/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 402/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (266-257=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (277-266=11)",
+                    "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3773-3680=93)",
-                    "amount": 465
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3871-3773=98)",
+                    "amount": 490
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2650,21 +2650,21 @@
         },
         {
             "unit_number": "403/2",
-            "invoice_id": "INV256908000108",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000108",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 403/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 403/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (959-954=5)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (964-959=5)",
                     "amount": 75.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7749-7667=82)",
-                    "amount": 410
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7832-7749=83)",
+                    "amount": 415
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2674,21 +2674,21 @@
         },
         {
             "unit_number": "404/2",
-            "invoice_id": "INV256908000109",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000109",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 404/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 404/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (233-227=6)",
-                    "amount": 90.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (233-233=0)",
+                    "amount": 0.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7076-7023=53)",
-                    "amount": 265
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7122-7076=46)",
+                    "amount": 230
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2698,21 +2698,21 @@
         },
         {
             "unit_number": "405/2",
-            "invoice_id": "INV256908000110",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000110",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 405/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 405/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (535-523=12)",
-                    "amount": 180.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (548-535=13)",
+                    "amount": 195.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1456-1371=85)",
-                    "amount": 425
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1540-1456=84)",
+                    "amount": 420
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2722,68 +2722,20 @@
         },
         {
             "unit_number": "406/2",
-            "invoice_id": "INV256908000111",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000111",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 406/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 406/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (352-349=3)",
-                    "amount": 45.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (352-352=0)",
+                    "amount": 0.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3358-3278=80)",
-                    "amount": 400
-                },
-                {
-                    "description": "ค่าส่วนกลาง (maintenance fee)",
-                    "amount": 350.0
-                }
-            ]
-        },
-        {
-            "unit_number": "407/2",
-            "invoice_id": "INV256908000112",
-            "bill_date": "25/08/2569",
-            "staff_name": "-----",
-            "charges": [
-                {
-                    "description": "ค่าเช่าห้อง (Room rate) 407/2 เดือน 08/2569",
-                    "amount": 2200.0
-                },
-                {
-                    "description": "ค่าน้ำ เดือน 08/2569 (78-73=5)",
-                    "amount": 75.0
-                },
-                {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (8053-8014=39)",
-                    "amount": 195
-                },
-                {
-                    "description": "ค่าส่วนกลาง (maintenance fee)",
-                    "amount": 350.0
-                }
-            ]
-        },
-        {
-            "unit_number": "408/2",
-            "invoice_id": "INV256908000113",
-            "bill_date": "25/08/2569",
-            "staff_name": "-----",
-            "charges": [
-                {
-                    "description": "ค่าเช่าห้อง (Room rate) 408/2 เดือน 08/2569",
-                    "amount": 2000.0
-                },
-                {
-                    "description": "ค่าน้ำ เดือน 08/2569 (646-639=7)",
-                    "amount": 105.0
-                },
-                {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2402-2341=61)",
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3419-3358=61)",
                     "amount": 305
                 },
                 {
@@ -2793,22 +2745,70 @@
             ]
         },
         {
-            "unit_number": "409/2",
-            "invoice_id": "INV256908000114",
-            "bill_date": "25/08/2569",
+            "unit_number": "407/2",
+            "invoice_id": "INV256909000112",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 409/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 407/2 เดือน 09/2569",
+                    "amount": 2200.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 09/2569 (82-78=4)",
+                    "amount": 60.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (8085-8053=32)",
+                    "amount": 160
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "408/2",
+            "invoice_id": "INV256909000113",
+            "bill_date": "25/09/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 408/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (771-763=8)",
-                    "amount": 120.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (653-646=7)",
+                    "amount": 105.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (3291-3274=17)",
-                    "amount": 85
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2458-2402=56)",
+                    "amount": 280
+                },
+                {
+                    "description": "ค่าส่วนกลาง (maintenance fee)",
+                    "amount": 350.0
+                }
+            ]
+        },
+        {
+            "unit_number": "409/2",
+            "invoice_id": "INV256909000114",
+            "bill_date": "25/09/2569",
+            "staff_name": "-----",
+            "charges": [
+                {
+                    "description": "ค่าเช่าห้อง (Room rate) 409/2 เดือน 09/2569",
+                    "amount": 2000.0
+                },
+                {
+                    "description": "ค่าน้ำ เดือน 09/2569 (784-771=13)",
+                    "amount": 195.0
+                },
+                {
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (3321-3291=30)",
+                    "amount": 150
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2818,21 +2818,21 @@
         },
         {
             "unit_number": "410/2",
-            "invoice_id": "INV256908000115",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000115",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 410/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 410/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (202-198=4)",
-                    "amount": 60.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (205-202=3)",
+                    "amount": 45.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2655-2567=88)",
-                    "amount": 440
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2755-2655=100)",
+                    "amount": 500
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2842,21 +2842,21 @@
         },
         {
             "unit_number": "411/2",
-            "invoice_id": "INV256908000116",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000116",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 411/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 411/2 เดือน 09/2569",
                     "amount": 2200.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (456-455=1)",
-                    "amount": 15.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (459-456=3)",
+                    "amount": 45.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (7915-7913=2)",
-                    "amount": 10
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (7955-7915=40)",
+                    "amount": 200
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2866,21 +2866,21 @@
         },
         {
             "unit_number": "412/2",
-            "invoice_id": "INV256908000117",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000117",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 412/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 412/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (360-351=9)",
-                    "amount": 135.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (370-360=10)",
+                    "amount": 150.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (9506-9419=87)",
-                    "amount": 435
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (9616-9506=110)",
+                    "amount": 550
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2890,21 +2890,21 @@
         },
         {
             "unit_number": "413/2",
-            "invoice_id": "INV256908000118",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000118",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 413/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 413/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (1033-1024=9)",
+                    "description": "ค่าน้ำ เดือน 09/2569 (1042-1033=9)",
                     "amount": 135.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (904-789=115)",
-                    "amount": 575
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1012-904=108)",
+                    "amount": 540
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2914,21 +2914,21 @@
         },
         {
             "unit_number": "414/2",
-            "invoice_id": "INV256908000119",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000119",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 414/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 414/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (416-404=12)",
-                    "amount": 180.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (427-416=11)",
+                    "amount": 165.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (2159-2050=109)",
-                    "amount": 545
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (2271-2159=112)",
+                    "amount": 560
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",
@@ -2938,21 +2938,21 @@
         },
         {
             "unit_number": "415/2",
-            "invoice_id": "INV256908000120",
-            "bill_date": "25/08/2569",
+            "invoice_id": "INV256909000120",
+            "bill_date": "25/09/2569",
             "staff_name": "-----",
             "charges": [
                 {
-                    "description": "ค่าเช่าห้อง (Room rate) 415/2 เดือน 08/2569",
+                    "description": "ค่าเช่าห้อง (Room rate) 415/2 เดือน 09/2569",
                     "amount": 2000.0
                 },
                 {
-                    "description": "ค่าน้ำ เดือน 08/2569 (317-299=18)",
-                    "amount": 270.0
+                    "description": "ค่าน้ำ เดือน 09/2569 (331-317=14)",
+                    "amount": 210.0
                 },
                 {
-                    "description": "ค่าไฟฟ้า เดือน 08/2569 (1229-1122=107)",
-                    "amount": 535
+                    "description": "ค่าไฟฟ้า เดือน 09/2569 (1312-1229=83)",
+                    "amount": 415
                 },
                 {
                     "description": "ค่าส่วนกลาง (maintenance fee)",

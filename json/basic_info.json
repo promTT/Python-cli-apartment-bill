@@ -3,8 +3,8 @@
     "apartment_address": "บ้านเลขที่ 3 ซ.74/1 แขวงบางบอน เขตบางบอน กทม. 10150",
     "phone": "0814304480",
     "email": "praphat.aphartment@gmail.com",
-    "billing_month": "08/2569",
-    "bill_date": "25/08/2569",
+    "billing_month": "09/2569",
+    "bill_date": "25/09/2569",
     "water_rate": 15.0,
     "electric_rate": 5,
     "room_water_rates": {},
@@ -46,7 +46,7 @@
         "108/1": {
             "room_price": 3500.0,
             "maintenance_fee": 250.0,
-            "car_park_rate": 400.0
+            "car_park_rate": 800.0
         },
         "109/1": {
             "room_price": 2200.0,
@@ -239,7 +239,7 @@
             "maintenance_fee": 350.0
         },
         "410/1": {
-            "room_price": 2000.0,
+            "room_price": 2200.0,
             "maintenance_fee": 350.0
         },
         "411/1": {
