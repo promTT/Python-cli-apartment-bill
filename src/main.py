@@ -164,6 +164,7 @@ def run_menu():
             image_files = sorted(jpeg_folder.glob("*.jpg"))
             
             uploaded_data = {}
+            failed_uploads = []
             print(f"Uploading {len(image_files)} images concurrently. This will be fast!...")
             
             # 2. Define a helper function for the thread pool to execute
@@ -181,7 +182,10 @@ def run_menu():
                         room_number, public_url = future.result()
                         if public_url:
                             uploaded_data[room_number] = public_url
+                        else:
+                            failed_uploads.append(room_number)
                     except Exception as e:
+                        failed_uploads.append(futures[future].stem)
                         print(f"❌ An error occurred during upload: {e}")
             
             # 4. Sort the final dictionary keys just to keep the saved JSON tidy
@@ -191,7 +195,15 @@ def run_menu():
             with open(url_storage_file, "w", encoding="utf-8") as f:
                 json.dump(uploaded_data, f, indent=4)
                 
-            print(f"\n✅ All uploads complete! URLs saved to {url_storage_file}")
+            if failed_uploads:
+                failed_uploads.sort()
+                print(
+                    f"\n⚠️ {len(failed_uploads)} file(s) could not be uploaded "
+                    f"after automatic retries: {', '.join(failed_uploads)}"
+                )
+            else:
+                print("\n✅ All uploads complete!")
+            print(f"URLs saved to {url_storage_file}")
 
         elif choice == "7":
             print("\n--- 📱 Sending Bills to Admin via LINE ---")
