@@ -2,3 +2,8 @@ reportlab
 PyMuPDF
 Pillow
 matplotlib
+requests
+python-dotenv
+
+# Only needed for src/get_line_ids.py (LINE user-ID helper)
+Flask
